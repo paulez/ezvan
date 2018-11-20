@@ -1,6 +1,6 @@
 Title: Plusieurs sessions dans Firefox avec Multifox
 Date: 2012-05-03 18:30
-Author: paul
+Author: Paul Ezvan
 Slug: plusieurs-sessions-dans-firefox-avec-multifox
 
 <div

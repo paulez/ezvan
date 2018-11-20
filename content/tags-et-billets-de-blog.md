@@ -1,6 +1,6 @@
 Title: Tags et billets de blog
 Date: 2012-02-25 16:19
-Author: paul
+Author: Paul Ezvan
 Slug: tags-et-billets-de-blog
 
 <div

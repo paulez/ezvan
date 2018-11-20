@@ -1,6 +1,6 @@
 Title: BOINC, systemd et priorité des processus sous Linux
 Date: 2017-10-14 06:35
-Author: paul
+Author: Paul Ezvan
 Slug: boinc-systemd-et-priorite-des-processus-sous-linux
 
 <div

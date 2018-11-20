@@ -1,6 +1,6 @@
 Title: Spam et Jabber
 Date: 2012-05-03 21:11
-Author: paul
+Author: Paul Ezvan
 Slug: spam-et-jabber
 
 <div

@@ -1,6 +1,6 @@
 Title: Reconstruire le menu d'administration de Drupal
 Date: 2015-06-01 15:32
-Author: paul
+Author: Paul Ezvan
 Slug: reconstruire-le-menu-dadministration-de-drupal
 
 <div

@@ -1,6 +1,6 @@
 Title: Webmail en panne
 Date: 2007-01-03 19:05
-Author: paul
+Author: Paul Ezvan
 Slug: webmail-en-panne
 
 <div

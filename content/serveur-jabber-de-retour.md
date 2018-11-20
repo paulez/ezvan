@@ -1,6 +1,6 @@
 Title: Serveur Jabber de retour
 Date: 2007-12-26 17:12
-Author: paul
+Author: Paul Ezvan
 Slug: serveur-jabber-de-retour
 
 <div

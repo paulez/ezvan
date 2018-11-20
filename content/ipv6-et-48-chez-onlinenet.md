@@ -1,6 +1,6 @@
 Title: IPv6 et /48 chez Online.net
 Date: 2012-04-16 19:53
-Author: paul
+Author: Paul Ezvan
 Slug: ipv6-et-48-chez-onlinenet
 
 <div

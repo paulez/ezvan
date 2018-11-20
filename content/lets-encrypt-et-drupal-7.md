@@ -1,6 +1,6 @@
 Title: Let's Encrypt et Drupal 7
 Date: 2018-08-19 01:29
-Author: paul
+Author: Paul Ezvan
 Slug: lets-encrypt-et-drupal-7
 
 <div

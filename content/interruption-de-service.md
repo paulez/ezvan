@@ -1,6 +1,6 @@
 Title: Interruption de service
 Date: 2011-08-12 18:59
-Author: paul
+Author: Paul Ezvan
 Slug: interruption-de-service
 
 <div

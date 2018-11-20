@@ -1,6 +1,6 @@
 Title: Partage de photos avec Nextcloud et bien d'autres
 Date: 2018-02-19 08:06
-Author: paul
+Author: Paul Ezvan
 Slug: partage-de-photos-avec-nextcloud-et-bien-dautres
 
 <div

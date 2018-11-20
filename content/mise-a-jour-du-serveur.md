@@ -1,6 +1,6 @@
 Title: Mise à jour du serveur
 Date: 2007-01-04 01:45
-Author: paul
+Author: Paul Ezvan
 Slug: mise-a-jour-du-serveur
 
 <div

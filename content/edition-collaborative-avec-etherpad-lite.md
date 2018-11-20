@@ -1,6 +1,6 @@
 Title: Édition collaborative avec Etherpad-lite
 Date: 2012-04-30 21:07
-Author: paul
+Author: Paul Ezvan
 Slug: edition-collaborative-avec-etherpad-lite
 
 <div

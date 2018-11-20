@@ -1,6 +1,6 @@
 Title: Nokia N9 et CardDav
 Date: 2012-07-21 14:55
-Author: paul
+Author: Paul Ezvan
 Slug: nokia-n9-et-carddav
 
 <div

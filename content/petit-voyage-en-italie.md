@@ -1,6 +1,6 @@
 Title: Petit voyage en Italie
 Date: 2011-06-18 16:06
-Author: paul
+Author: Paul Ezvan
 Slug: petit-voyage-en-italie
 
 <div

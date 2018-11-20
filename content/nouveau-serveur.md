@@ -1,6 +1,6 @@
 Title: Nouveau serveur
 Date: 2011-04-28 20:13
-Author: paul
+Author: Paul Ezvan
 Slug: nouveau-serveur
 
 <div

@@ -1,6 +1,6 @@
 Title: Synchronisation de calendriers et de contacts
 Date: 2011-02-20 16:27
-Author: paul
+Author: Paul Ezvan
 Slug: synchronisation-de-calendriers-et-de-contacts
 
 <div

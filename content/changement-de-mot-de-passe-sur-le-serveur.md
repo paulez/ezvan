@@ -1,6 +1,6 @@
 Title: Changement de mot de passe sur le serveur
 Date: 2011-06-11 21:53
-Author: paul
+Author: Paul Ezvan
 Slug: changement-de-mot-de-passe-sur-le-serveur
 
 <div

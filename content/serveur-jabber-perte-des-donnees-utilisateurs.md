@@ -1,6 +1,6 @@
 Title: Serveur Jabber - Perte des données utilisateurs
 Date: 2007-07-16 21:16
-Author: paul
+Author: Paul Ezvan
 Slug: serveur-jabber-perte-des-donnees-utilisateurs
 
 <div

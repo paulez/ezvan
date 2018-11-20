@@ -1,6 +1,6 @@
 Title: Souhaitez-vous pouvoir utiliser le webmail Horde ?
 Date: 2010-11-16 12:56
-Author: paul
+Author: Paul Ezvan
 Slug: souhaitez-vous-pouvoir-utiliser-le-webmail-horde
 
 <form accept-charset="UTF-8" action="https://www.ezvan.fr/rss.xml" id="poll-view-voting" method="post">

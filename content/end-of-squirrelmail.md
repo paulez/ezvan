@@ -1,6 +1,6 @@
 Title: End of Squirrelmail
 Date: 2017-10-26 06:54
-Author: paul
+Author: Paul Ezvan
 Slug: end-of-squirrelmail
 
 <div

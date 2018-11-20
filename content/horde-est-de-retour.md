@@ -1,6 +1,6 @@
 Title: Horde est de retour !
 Date: 2011-02-20 15:39
-Author: paul
+Author: Paul Ezvan
 Slug: horde-est-de-retour
 
 <div

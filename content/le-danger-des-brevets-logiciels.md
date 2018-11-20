@@ -1,6 +1,6 @@
 Title: Le danger des brevets logiciels
 Date: 2012-05-03 18:36
-Author: paul
+Author: Paul Ezvan
 Slug: le-danger-des-brevets-logiciels
 
 <div

@@ -1,6 +1,6 @@
 Title: Hattrick : un nouvelle fonctionnalité intéressante
 Date: 2012-02-25 16:12
-Author: paul
+Author: Paul Ezvan
 Slug: hattrick-un-nouvelle-fonctionnalite-interessante
 
 <div

@@ -1,6 +1,6 @@
 Title: Nouvelle méthode d'inscription des utilisateurs
 Date: 2011-02-20 15:37
-Author: paul
+Author: Paul Ezvan
 Slug: nouvelle-methode-dinscription-des-utilisateurs
 
 <div

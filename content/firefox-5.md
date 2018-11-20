@@ -1,6 +1,6 @@
 Title: Firefox 5
 Date: 2011-06-19 09:36
-Author: paul
+Author: Paul Ezvan
 Slug: firefox-5
 
 <div

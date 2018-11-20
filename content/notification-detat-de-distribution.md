@@ -1,6 +1,6 @@
 Title: Notification d'état de distribution
 Date: 2011-06-17 15:14
-Author: paul
+Author: Paul Ezvan
 Slug: notification-detat-de-distribution
 
 <div

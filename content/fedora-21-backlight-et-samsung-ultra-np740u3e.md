@@ -1,6 +1,6 @@
 Title: Fedora 21, Backlight et Samsung Ultra NP740U3E
 Date: 2014-12-20 01:22
-Author: paul
+Author: Paul Ezvan
 Slug: fedora-21-backlight-et-samsung-ultra-np740u3e
 
 <div
