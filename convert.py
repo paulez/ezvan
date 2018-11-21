@@ -28,8 +28,17 @@ def convert(file):
                 ', '.join(tags)
             ))
         new_content.append(md_line)
+    new_content = "".join(new_content)
+    # remove multiline div tags
+    new_content = re.sub(
+        "<div[^>]*>\n",
+        "",
+        new_content,
+        flags=re.DOTALL)
+    # remove multiple blank lines
+    new_content = re.sub(r'\n\s*\n', '\n\n', new_content)
     with open("{}.new".format(file), "w") as md_output:
-        md_output.writelines(new_content)
+        md_output.write(new_content)
 
 def filter_line(line):
     """
@@ -37,7 +46,13 @@ def filter_line(line):
     """
     if re.fullmatch("</p>\n", line):
         return True
+    if re.fullmatch("<p>\n", line):
+        return True
     if re.fullmatch("<div.*>\n", line):
+        return True
+    if re.fullmatch("</div>\n", line):
+        return True
+    if re.fullmatch("Thème:.*\n", line):
         return True
     return False
 
