@@ -1,6 +1,6 @@
 Title: Ezvan.fr de retour, encore plus fort !
 Date: 2009-07-03 00:48
-Author: Paul Ezvan
+Author: Paul
 Tags: Site
 Slug: ezvanfr-de-retour-encore-plus-fort
 

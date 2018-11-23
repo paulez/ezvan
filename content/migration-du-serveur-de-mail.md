@@ -1,6 +1,6 @@
 Title: Migration du serveur de mail
 Date: 2011-04-29 18:58
-Author: Paul Ezvan
+Author: Paul
 Tags: Site
 Slug: migration-du-serveur-de-mail
 

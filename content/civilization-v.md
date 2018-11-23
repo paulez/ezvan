@@ -1,6 +1,6 @@
 Title: Civilization V
 Date: 2010-03-11 12:18
-Author: Paul Ezvan
+Author: Paul
 Tags: Jeux-vidéo, Civilization
 Slug: civilization-v
 

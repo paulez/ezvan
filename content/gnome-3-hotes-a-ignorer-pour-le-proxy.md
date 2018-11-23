@@ -1,6 +1,6 @@
 Title: Gnome 3 : hôtes à ignorer pour le proxy
 Date: 2011-12-09 09:36
-Author: Paul Ezvan
+Author: Paul
 Tags: Gnome, Libre, Gnome, Linux
 Slug: gnome-3-hotes-a-ignorer-pour-le-proxy
 

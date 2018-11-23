@@ -1,6 +1,6 @@
 Title: Agenda et contacts
 Date: 2017-12-20 16:09
-Author: Paul Ezvan
+Author: Paul
 Tags: Services
 Slug: agenda-et-contacts
 

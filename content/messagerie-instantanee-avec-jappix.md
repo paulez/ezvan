@@ -1,6 +1,6 @@
 Title: Messagerie instantanée avec Jappix
 Date: 2011-06-29 20:22
-Author: Paul Ezvan
+Author: Paul
 Tags: Jabber, Jappix
 Slug: messagerie-instantanee-avec-jappix
 

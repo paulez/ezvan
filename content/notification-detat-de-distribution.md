@@ -1,6 +1,6 @@
 Title: Notification d'état de distribution
 Date: 2011-06-17 15:14
-Author: Paul Ezvan
+Author: Paul
 Tags: Mail, Roundcube
 Slug: notification-detat-de-distribution
 

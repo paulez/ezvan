@@ -1,6 +1,6 @@
 Title: Linux et la seconde intercalaire
 Date: 2012-07-03 08:49
-Author: Paul Ezvan
+Author: Paul
 Tags: Linux, Libre
 Slug: linux-et-la-seconde-intercalaire
 

@@ -1,6 +1,6 @@
 Title: Certificats
 Date: 2010-08-19 21:12
-Author: Paul Ezvan
+Author: Paul
 Tags: Site, Services
 Slug: certificats
 

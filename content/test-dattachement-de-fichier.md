@@ -1,6 +1,6 @@
 Title: Test d'attachement de fichier
 Date: 2006-09-27 16:57
-Author: Paul Ezvan
+Author: Paul
 Tags: 
 Slug: test-dattachement-de-fichier
 

@@ -1,6 +1,6 @@
 Title: Debian 9 et IPv6 sur AWS EC2
 Date: 2018-01-09 00:32
-Author: Paul Ezvan
+Author: Paul
 Tags: Libre, Debian, EC2, IPv6, Linux
 Slug: debian-9-et-ipv6-sur-aws-ec2
 

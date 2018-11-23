@@ -1,6 +1,6 @@
 Title: Migration vers AWS
 Date: 2013-09-01 15:24
-Author: Paul Ezvan
+Author: Paul
 Tags: Site
 Slug: migration-vers-aws
 

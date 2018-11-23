@@ -1,6 +1,6 @@
 Title: Interruption du serveur ce soir à 21H45
 Date: 2007-02-11 16:29
-Author: Paul Ezvan
+Author: Paul
 Tags: Site, Services
 Slug: interruption-du-serveur-ce-soir-a-21h45
 

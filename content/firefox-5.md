@@ -1,6 +1,6 @@
 Title: Firefox 5
 Date: 2011-06-19 09:36
-Author: Paul Ezvan
+Author: Paul
 Tags: Archlinux, Firefox
 Slug: firefox-5
 

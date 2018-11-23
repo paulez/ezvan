@@ -1,6 +1,6 @@
 Title: Antispam sur le serveur de mail
 Date: 2011-06-05 17:25
-Author: Paul Ezvan
+Author: Paul
 Tags: Services
 Slug: antispam-sur-le-serveur-de-mail
 

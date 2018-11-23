@@ -1,6 +1,6 @@
 Title: Problème avec le téléversement automatique de Nextcloud
 Date: 2018-03-05 12:14
-Author: Paul Ezvan
+Author: Paul
 Tags: Libre, Nextcloud
 Slug: probleme-avec-le-televersement-automatique-de-nextcloud
 

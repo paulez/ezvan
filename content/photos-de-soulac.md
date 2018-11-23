@@ -1,6 +1,6 @@
 Title: Photos de Soulac
 Date: 2009-07-22 18:35
-Author: Paul Ezvan
+Author: Paul
 Tags: Photos, Vacances
 Slug: photos-de-soulac
 

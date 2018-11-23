@@ -1,6 +1,6 @@
 Title: Greylisting
 Date: 2010-03-28 14:26
-Author: Paul Ezvan
+Author: Paul
 Tags: Services
 Slug: greylisting
 

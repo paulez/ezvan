@@ -1,6 +1,6 @@
 Title: Tiny Tiny RSS : un lecteur de flux RSS web
 Date: 2011-06-12 11:10
-Author: Paul Ezvan
+Author: Paul
 Tags: RSS, Debian, Hébergement, Libre, Logiciels
 Slug: tiny-tiny-rss-un-lecteur-de-flux-rss-web
 

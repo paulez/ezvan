@@ -1,6 +1,6 @@
 Title: Coupure imminente et temporaire
 Date: 2007-08-06 13:56
-Author: Paul Ezvan
+Author: Paul
 Tags: Site, Services
 Slug: coupure-imminente-et-temporaire
 

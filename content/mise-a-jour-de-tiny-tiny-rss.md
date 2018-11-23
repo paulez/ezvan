@@ -1,6 +1,6 @@
 Title: Mise à jour de Tiny Tiny RSS
 Date: 2016-12-05 00:16
-Author: Paul Ezvan
+Author: Paul
 Tags: RSS, Web, Services
 Slug: mise-a-jour-de-tiny-tiny-rss
 

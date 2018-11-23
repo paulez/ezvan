@@ -1,6 +1,6 @@
 Title: Photos des vacances à Port Blanc
 Date: 2009-08-20 15:35
-Author: Paul Ezvan
+Author: Paul
 Tags: Photos, Vacances
 Slug: photos-des-vacances-a-port-blanc
 

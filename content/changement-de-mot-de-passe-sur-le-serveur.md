@@ -1,6 +1,6 @@
 Title: Changement de mot de passe sur le serveur
 Date: 2011-06-11 21:53
-Author: Paul Ezvan
+Author: Paul
 Tags: Debian, LDAP, PAM, Services
 Slug: changement-de-mot-de-passe-sur-le-serveur
 
