@@ -1,14 +1,8 @@
 Title: Evolution de l'outil DVBSC
 Date: 2017-05-24 12:41
 Author: dezvan
+Tags: 
 Slug: evolution-de-loutil-dvbsc
-
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
 
 La version V2R5 de l'outil d'extraction d'un fichier vidéo à partir d'un
 flux de télévision numérique propose quelques évolutions:  
@@ -20,15 +14,4 @@ logiciel).
 cartes graphiques.  
 [Téléchargez directement
 ici!](http://www.ezvan.fr/public/logiciels/papa/DVBSC.ZIP)
-
-</p>
-<p>
-
-</div>
-
-</div>
-
-</div>
-
-</p>
 

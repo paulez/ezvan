@@ -1,14 +1,8 @@
 Title: Nouvelle version de DVBT2MPG
 Date: 2007-01-07 16:45
 Author: dezvan
+Tags: 
 Slug: nouvelle-version-de-dvbt2mpg
-
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
 
 Pour prendre en compte les différentes remarques et améliorier son
 fonctionnement, j'ai mis en ligne la version V1R2.2 de l'outil
@@ -21,15 +15,4 @@ outil permet de récupérer des fichiers MPEG2 au format PS (program
 stream) à partir d'un enregistreur TNT à disque dur de SAGEM. Si vous
 voulez récupérer vos vidéos au format natif de la TNT c'est à dire TS
 (transport stream), vous devez utilisez DVBT2X.
-
-</p>
-<p>
-
-</div>
-
-</div>
-
-</div>
-
-</p>
 

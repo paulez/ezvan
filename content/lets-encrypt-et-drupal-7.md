@@ -1,6 +1,7 @@
 Title: Let's Encrypt et Drupal 7
 Date: 2018-08-19 01:29
 Author: Paul Ezvan
+Tags: 
 Slug: lets-encrypt-et-drupal-7
 Category: Linux
 Tags: Libre, SSL, Web, Site
@@ -21,12 +22,10 @@ Dans mon cas j’utilise la commande suivante. Je spécifie le chemin
 d’installation de Drupal (qui fait tourner ce site) et demande à cerbot
 de configurer Apache pour utiliser le nouveau certificat.
 
-</p>
     % sudo certbot --authenticator webroot --installer apache --webroot -w /usr/share/drupal7 -d www.ezvan.fr
 
 Malheureusement tout ne se passe pas comme prévu !
 
-</p>
      - The following errors were reported by the server:   Domain: www.ezvan.fr   Type:   unauthorized   Detail: Invalid response from   http://www.ezvan.fr/.well-known/acme-challenge/UWXvHv0ueIHLLooJIcIfdD2OiuNipVF5TuSc0dXnXd0:   "      403 Forbidden      Forbidden"
 
 Que se passe-t-il ? Drupal interdit l’accès direct aux fichiers placés
@@ -41,7 +40,6 @@ pour autoriser l’accès à ce répertoire. Après avoir appliqué ce patch au
 fichier .htaccess situé à la racine du répertoire Drupal, je peux
 relancer la commande avec succès.
 
-</p>
      - Congratulations! Your certificate and chain have been saved at   /etc/letsencrypt/live/www.ezvan.fr/fullchain.pem. Your cert will   expire on 2018-11-16. To obtain a new or tweaked version of this   certificate in the future, simply run certbot again with the   "certonly" option. To non-interactively renew *all* of your   certificates, run "certbot renew"
 
 Et voilà mon certificat est configuré ! Je peux maintenant vérifier que

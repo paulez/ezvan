@@ -1,14 +1,8 @@
 Title: Civilization V
 Date: 2010-03-11 12:18
 Author: Paul Ezvan
+Tags: Jeux-vidéo, Civilization
 Slug: civilization-v
-
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
 
 Gamespot vient de publier [un
 article](http://gdc.gamespot.com/story/6253246/civilization-v-impressions-first-look?tag=latest-highlights;title;3)
@@ -25,42 +19,4 @@ Ces quelques changements devraient conduire à une stratégie de jeu assez
 différente des versions précédentes.  
 
 Alors les experts en la matière, vous en pensez-quoi ?
-
-</p>
-<p>
-
-</div>
-
-</div>
-
-</div>
-
-<div
-class="field field-name-taxonomy-vocabulary-3 field-type-taxonomy-term-reference field-label-above">
-
-<div class="field-label">
-
-Thème: 
-
-</div>
-
-<div class="field-items">
-
-<div class="field-item even">
-
-[Jeux-vidéo](https://www.ezvan.fr/taxonomy/term/33)
-
-</div>
-
-<div class="field-item odd">
-
-[Civilization](https://www.ezvan.fr/taxonomy/term/34)
-
-</div>
-
-</div>
-
-</div>
-
-</p>
 

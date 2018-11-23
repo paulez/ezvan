@@ -1,14 +1,8 @@
 Title: BOINC, systemd et priorité des processus sous Linux, la suite
 Date: 2017-10-25 07:39
 Author: Paul Ezvan
+Tags: BOINC, Linux, Libre, systemd
 Slug: boinc-systemd-et-priorite-des-processus-sous-linux-la-suite
-
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
 
 Dans mon [précédent billet](https://www.ezvan.fr/node/106) j'avais pensé
 avoir réglé mon problème, le démon BOINC laissant toutes les ressources
@@ -32,7 +26,6 @@ qui conduit systemd à [convertir la valeur de CPUWeight à son équivalent
 cpu.shares](https://github.com/systemd/systemd/blob/4c701096002fff540d9ddb3b21398c551ac3af78/src/core/cgroup.c#L732)
 sur mon système.
 
-</p>
 Pourtant j'ai remarqué que la lecture de vidéos n'était pas fluide sur
 mon système. En renouvelant l'expérience précédemment décrite les
 résultats montraient que BOINC ne laissait pas libres toutes les
@@ -174,54 +167,4 @@ processeur du système. Il m'a fallu pas mal de temps pour comprendre
 comment revenir au comportement voulu par BOINC, c'est à dire de laisser
 toutes les ressources processeur disponibles quand n'importe quel autre
 programme en a besoin.
-
-</p>
-<p>
-
-</div>
-
-</div>
-
-</div>
-
-<div
-class="field field-name-taxonomy-vocabulary-3 field-type-taxonomy-term-reference field-label-above">
-
-<div class="field-label">
-
-Thème: 
-
-</div>
-
-<div class="field-items">
-
-<div class="field-item even">
-
-[BOINC](https://www.ezvan.fr/taxonomy/term/63)
-
-</div>
-
-<div class="field-item odd">
-
-[Linux](https://www.ezvan.fr/taxonomy/term/45)
-
-</div>
-
-<div class="field-item even">
-
-[Libre](https://www.ezvan.fr/taxonomy/term/48)
-
-</div>
-
-<div class="field-item odd">
-
-[systemd](https://www.ezvan.fr/taxonomy/term/62)
-
-</div>
-
-</div>
-
-</div>
-
-</p>
 

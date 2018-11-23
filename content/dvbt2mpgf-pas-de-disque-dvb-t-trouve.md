@@ -1,14 +1,8 @@
 Title: DVBT2MPGF: Pas de disque DVB-T trouvé
 Date: 2009-09-21 13:47
 Author: dezvan
+Tags: Logiciels
 Slug: dvbt2mpgf-pas-de-disque-dvb-t-trouve
-
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
 
 J'ai reçu de nombreux mails concernant des problèmes de reconnaissance
 des disques des PVR SAGEM sous DVBT2MPG. Le disque dur de mon PC a
@@ -37,35 +31,5 @@ changer les propriétés du fichier DVBT2MPG.EXE (ou DVBT2MPGF.EXE) afin
 qu’il s’exécute en tant qu’ « Administrateur » (ça s’applique aussi à
 Windows 7).
 
-</p>
-<p>
-
-</div>
-
-</div>
-
-</div>
-
-<div
-class="field field-name-taxonomy-vocabulary-2 field-type-taxonomy-term-reference field-label-above">
-
-<div class="field-label">
-
 Articles: 
-
-</div>
-
-<div class="field-items">
-
-<div class="field-item even">
-
-[Logiciels](https://www.ezvan.fr/taxonomy/term/6)
-
-</div>
-
-</div>
-
-</div>
-
-</p>
 

@@ -1,14 +1,8 @@
 Title: Signaler les spams non détectés
 Date: 2012-02-27 11:07
 Author: Paul Ezvan
+Tags: Pourriel, Services
 Slug: signaler-les-spams-non-detectes
-
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
 
 Je viens d'ajouter une fonctionnalité d'apprentissage des Pourriels
 (spams) non détectés par l'antispam.  
@@ -25,56 +19,5 @@ ensuite supprimés.
 
 Bien sûr évitez de mettre des faux pourriels dedans !
 
-</p>
-<p>
-
-</div>
-
-</div>
-
-</div>
-
-<div
-class="field field-name-taxonomy-vocabulary-3 field-type-taxonomy-term-reference field-label-above">
-
-<div class="field-label">
-
-Thème: 
-
-</div>
-
-<div class="field-items">
-
-<div class="field-item even">
-
-[Pourriel](https://www.ezvan.fr/taxonomy/term/35)
-
-</div>
-
-</div>
-
-</div>
-
-<div
-class="field field-name-taxonomy-vocabulary-2 field-type-taxonomy-term-reference field-label-above">
-
-<div class="field-label">
-
 Articles: 
-
-</div>
-
-<div class="field-items">
-
-<div class="field-item even">
-
-[Services](https://www.ezvan.fr/taxonomy/term/8)
-
-</div>
-
-</div>
-
-</div>
-
-</p>
 

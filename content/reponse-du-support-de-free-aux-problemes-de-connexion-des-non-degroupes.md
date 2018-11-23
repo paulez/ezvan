@@ -1,14 +1,8 @@
 Title: Réponse du support de Free aux problèmes de connexion des non-dégroupés
 Date: 2006-09-28 14:24
 Author: Paul Ezvan
+Tags: 
 Slug: reponse-du-support-de-free-aux-problemes-de-connexion-des-non-degroupes
-
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
 
 Comme vous ne le savez peut-être pas, ce site est hébergé sur un serveur
 connecté au net via une connexion Free non dégroupée, les problèmes
@@ -16,7 +10,6 @@ rencontrés par les Freenautes non dégroupés me concernent donc
 directement, tels que l'impossibilité de jouer à certains jeux en ligne
 ( comme Battlefield 2 par exemple ) et des déconnexions intempestives de
 Windows Live Messenger.
-</p>
 Voici la réponse donnée par le support de Free à mon problème
 :<!--break-->
 
@@ -128,14 +121,5 @@ La réponse est donc claire : Free ne pratique pas le bridage selon le
 support technique. J'ai parfois lu sur le net que le support technique
 de Free n'était pas au courant, maintenant ils le sont apparemment.
 
-<p>
 Dommage que Free ne veuille pas plus communiquer sur ce problème !
-
-</div>
-
-</div>
-
-</div>
-
-</p>
 

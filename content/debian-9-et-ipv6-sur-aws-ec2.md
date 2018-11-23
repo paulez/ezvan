@@ -1,14 +1,8 @@
 Title: Debian 9 et IPv6 sur AWS EC2
 Date: 2018-01-09 00:32
 Author: Paul Ezvan
+Tags: Libre, Debian, EC2, IPv6, Linux
 Slug: debian-9-et-ipv6-sur-aws-ec2
-
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
 
 Ce week-end j'ai configuré [IPv6](https://fr.wikipedia.org/wiki/IPv6)
 sur mon infrastructure [EC2](https://aws.amazon.com/ec2/) qui tourne
@@ -21,11 +15,9 @@ d'abord sur des instances de tests, car mes premiers essais ont rendus
 mes instances totalement injoignables, heureusement que ce n'étaient pas
 celles de prod !
 
-</p>
 Au début j'ai simplement configuré /etc/network/interfaces de la façon
 suivante afin d'utiliser dhcp pour IPv6:
 
-</p>
     % cat /etc/network/interfaces# interfaces(5) file used by ifup(8) and ifdown(8)auto loiface lo inet loopbackauto eth0iface eth0 inet dhcpiface eth0 inet6 dhcp
 
 Mais après un redémarrage mon instance de test n'arrivait pas à
@@ -38,80 +30,10 @@ Debian 7, car il n'est pas disponible pour les versions ultérieures ! Je
 l'ai donc remplacé par
 [isc-dhcp-client](https://packages.debian.org/stretch/isc-dhcp-client).
 
-</p>
     % sudo apt install isc-dhcp-client isc-dhcp-common% sudo apt remove dhcpcd
 
 Après un redémarrage, tout fonctionne, mon instance obtient son adresse
 IPv6 !
 
-</p>
-<p>
-
-</div>
-
-</div>
-
-</div>
-
-<div
-class="field field-name-taxonomy-vocabulary-3 field-type-taxonomy-term-reference field-label-above">
-
-<div class="field-label">
-
-Thème: 
-
-</div>
-
-<div class="field-items">
-
-<div class="field-item even">
-
-[Libre](https://www.ezvan.fr/taxonomy/term/48)
-
-</div>
-
-<div class="field-item odd">
-
-[Debian](https://www.ezvan.fr/taxonomy/term/27)
-
-</div>
-
-<div class="field-item even">
-
-[EC2](https://www.ezvan.fr/taxonomy/term/65)
-
-</div>
-
-<div class="field-item odd">
-
-[IPv6](https://www.ezvan.fr/taxonomy/term/37)
-
-</div>
-
-</div>
-
-</div>
-
-<div
-class="field field-name-taxonomy-vocabulary-2 field-type-taxonomy-term-reference field-label-above">
-
-<div class="field-label">
-
 Articles: 
-
-</div>
-
-<div class="field-items">
-
-<div class="field-item even">
-
-[Linux](https://www.ezvan.fr/taxonomy/term/10)
-
-</div>
-
-</div>
-
-</div>
-
-</p>
 

@@ -1,14 +1,8 @@
 Title: Utiliser son espace web personnel
 Date: 2008-12-22 22:37
 Author: admin
+Tags: Services
 Slug: utiliser-son-espace-web-personnel
-
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
 
 Chaque utilisateur ayant un compte mail sur ezvan.fr peut également
 disposer d'un espace web afin de distribuer quelques fichiers ou
@@ -28,35 +22,5 @@ Pour créer un site dynamique nécessitant l'utilisation d'une base de
 données, vous pouvez contacter l'administrateur du site en utilisant [le
 formulaire de contact](https://www.ezvan.fr/contact).
 
-</p>
-<p>
-
-</div>
-
-</div>
-
-</div>
-
-<div
-class="field field-name-taxonomy-vocabulary-2 field-type-taxonomy-term-reference field-label-above">
-
-<div class="field-label">
-
 Articles: 
-
-</div>
-
-<div class="field-items">
-
-<div class="field-item even">
-
-[Services](https://www.ezvan.fr/taxonomy/term/8)
-
-</div>
-
-</div>
-
-</div>
-
-</p>
 

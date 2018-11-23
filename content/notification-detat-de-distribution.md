@@ -1,14 +1,8 @@
 Title: Notification d'état de distribution
 Date: 2011-06-17 15:14
 Author: Paul Ezvan
+Tags: Mail, Roundcube
 Slug: notification-detat-de-distribution
-
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
 
 Je viens de découvrir une fonctionnalité super pratique dans Roundcube :
 on peut demander à être notifié de l'état de distribution d'un mail.  
@@ -23,42 +17,4 @@ Roundcube, cliquer sur la molette en haut à droite, puis sur
 
 Bien sûr cette fonctionnalité doit être utilisable sur d'autres clients
 mail la supportant !
-
-</p>
-<p>
-
-</div>
-
-</div>
-
-</div>
-
-<div
-class="field field-name-taxonomy-vocabulary-3 field-type-taxonomy-term-reference field-label-above">
-
-<div class="field-label">
-
-Thème: 
-
-</div>
-
-<div class="field-items">
-
-<div class="field-item even">
-
-[Mail](https://www.ezvan.fr/taxonomy/term/24)
-
-</div>
-
-<div class="field-item odd">
-
-[Roundcube](https://www.ezvan.fr/taxonomy/term/25)
-
-</div>
-
-</div>
-
-</div>
-
-</p>
 

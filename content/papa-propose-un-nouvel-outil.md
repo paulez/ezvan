@@ -1,29 +1,12 @@
 Title: Papa propose un nouvel outil
 Date: 2007-12-03 12:28
 Author: dezvan
+Tags: 
 Slug: papa-propose-un-nouvel-outil
-
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
 
 Les outils standards ne savent pas extraire correctement une image ISO
 d'un DVD+RW. Papa a développé
 [DVD2ISO](https://www.ezvan.fr/logiciels_papa/) qui traite correctement
 ce support ré-inscriptible en analysant les fichiers pour en déterminer
 la taille utile.
-
-</p>
-<p>
-
-</div>
-
-</div>
-
-</div>
-
-</p>
 

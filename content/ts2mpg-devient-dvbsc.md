@@ -1,14 +1,8 @@
 Title: TS2MPG devient DVBSC
 Date: 2011-10-10 05:50
 Author: dezvan
+Tags: Logiciels
 Slug: ts2mpg-devient-dvbsc
-
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
 
 Avec l'arrivée de la haute définition, le format de fichier vidéo MPG
 n'est plus adapté. J'ai du faire évoluer mon outil d'extraction de
@@ -31,35 +25,5 @@ parties inutiles. Enfin, les conversions peuvent être lancées en
 *Sélectionnez "Logiciels" dans "Contenu" puis "Logiciels de Papa" pour
 télécharger gratuitement DVBSC.*
 
-</p>
-<p>
-
-</div>
-
-</div>
-
-</div>
-
-<div
-class="field field-name-taxonomy-vocabulary-2 field-type-taxonomy-term-reference field-label-above">
-
-<div class="field-label">
-
 Articles: 
-
-</div>
-
-<div class="field-items">
-
-<div class="field-item even">
-
-[Logiciels](https://www.ezvan.fr/taxonomy/term/6)
-
-</div>
-
-</div>
-
-</div>
-
-</p>
 

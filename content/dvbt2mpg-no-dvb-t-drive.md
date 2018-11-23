@@ -1,14 +1,8 @@
 Title: DVBT2MPG : No DVB-T drive
 Date: 2009-09-21 14:02
 Author: dezvan
+Tags: Logiciels
 Slug: dvbt2mpg-no-dvb-t-drive
-
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
 
 I got many emails concerning detection problems on SAGEM PVR disks with
 DVBT2MPG. Following a PC disk crash, I lost all my emails. So I can’t
@@ -24,35 +18,5 @@ Remark concerning Vista: In order to allow access to disk sectors, you
 must change the properties of the DVBT2MPG.EXE file. It must execute as
 “Administrator” (it is the same under Windows 7).
 
-</p>
-<p>
-
-</div>
-
-</div>
-
-</div>
-
-<div
-class="field field-name-taxonomy-vocabulary-2 field-type-taxonomy-term-reference field-label-above">
-
-<div class="field-label">
-
 Articles: 
-
-</div>
-
-<div class="field-items">
-
-<div class="field-item even">
-
-[Logiciels](https://www.ezvan.fr/taxonomy/term/6)
-
-</div>
-
-</div>
-
-</div>
-
-</p>
 

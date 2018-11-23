@@ -1,14 +1,8 @@
 Title: Et pour OPTEX?
 Date: 2007-06-04 21:31
 Author: Anonymous
+Tags: 
 Slug: et-pour-optex
-
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
 
 Bonjour à tous.  
 
@@ -28,15 +22,4 @@ Pensez vous qu'une adaptation soit possible?
 Merci d'avance pour vos réponses.  
 
 Ubuesque
-
-</p>
-<p>
-
-</div>
-
-</div>
-
-</div>
-
-</p>
 

@@ -1,6 +1,7 @@
 Title: Spam et Jabber
 Date: 2012-05-03 21:11
 Author: Paul Ezvan
+Tags: 
 Slug: spam-et-jabber
 Category: Site
 Tags: Jabber, Spam, ejabberd, Libre
