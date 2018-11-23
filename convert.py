@@ -3,8 +3,8 @@
 from argparse import ArgumentParser, FileType
 import re
 
-def convert(file):
-    with open(file, "r") as md_file:
+def convert(filename, override=False):
+    with open(filename, "r") as md_file:
         md_content = md_file.readlines()
     print("File line count: {}".format(len(md_content)))
     tags = []
@@ -37,7 +37,11 @@ def convert(file):
         flags=re.DOTALL)
     # remove multiple blank lines
     new_content = re.sub(r'\n\s*\n', '\n\n', new_content)
-    with open("{}.new".format(file), "w") as md_output:
+    if not override:
+        new_filename = "{}.new".format(file)
+    else:
+        new_filename = file
+    with open(new_filename, "w") as md_output:
         md_output.write(new_content)
 
 def filter_line(line):
@@ -58,7 +62,8 @@ def filter_line(line):
 
 parser = ArgumentParser()
 parser.add_argument('file', nargs="+")
+parser.add_argument('-o', '--override', help="Override converted files.", action='store_true')
 args = parser.parse_args()
 
 for file in args.file:
-    convert(file)
+    convert(file, override=args.override)
