@@ -2,13 +2,8 @@ Title: Let's Encrypt et Drupal 7
 Date: 2018-08-19 01:29
 Author: Paul Ezvan
 Slug: lets-encrypt-et-drupal-7
-
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
+Category: Linux
+Tags: Libre, SSL, Web, Site
 
 Le vieux certificat SSL fournit par Gandi pour
 [www.ezvan.fr](https://www.ezvan.fr/) a expiré sans crier gare ! Je n’ai
@@ -52,75 +47,3 @@ relancer la commande avec succès.
 Et voilà mon certificat est configuré ! Je peux maintenant vérifier que
 j’obtiens un score correct sur [le site SSL
 Labs](https://www.ssllabs.com/ssltest/analyze.html?d=www.ezvan.fr).
-
-</p>
-<p>
-
-</div>
-
-</div>
-
-</div>
-
-<div
-class="field field-name-taxonomy-vocabulary-3 field-type-taxonomy-term-reference field-label-above">
-
-<div class="field-label">
-
-Thème: 
-
-</div>
-
-<div class="field-items">
-
-<div class="field-item even">
-
-[Libre](https://www.ezvan.fr/taxonomy/term/48)
-
-</div>
-
-<div class="field-item odd">
-
-[SSL](https://www.ezvan.fr/taxonomy/term/67)
-
-</div>
-
-<div class="field-item even">
-
-[Web](https://www.ezvan.fr/taxonomy/term/39)
-
-</div>
-
-</div>
-
-</div>
-
-<div
-class="field field-name-taxonomy-vocabulary-2 field-type-taxonomy-term-reference field-label-above">
-
-<div class="field-label">
-
-Articles: 
-
-</div>
-
-<div class="field-items">
-
-<div class="field-item even">
-
-[Linux](https://www.ezvan.fr/taxonomy/term/10)
-
-</div>
-
-<div class="field-item odd">
-
-[Site](https://www.ezvan.fr/taxonomy/term/7)
-
-</div>
-
-</div>
-
-</div>
-
-</p>
-
