@@ -2,7 +2,8 @@ Title: DVBT2MPG : No DVB-T drive
 Date: 2009-09-21 14:02
 Author: Dominique
 Tags: Logiciels
-Slug: dvbt2mpg-no-dvb-t-drive
+Slug: dvbt2mpgf-pas-de-disque-dvb-t-trouve
+Lang: en
 
 I got many emails concerning detection problems on SAGEM PVR disks with
 DVBT2MPG. Following a PC disk crash, I lost all my emails. So I can’t

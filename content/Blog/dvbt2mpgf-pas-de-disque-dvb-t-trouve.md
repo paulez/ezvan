@@ -3,6 +3,7 @@ Date: 2009-09-21 13:47
 Author: Dominique
 Tags: Logiciels
 Slug: dvbt2mpgf-pas-de-disque-dvb-t-trouve
+Lang: fr
 
 J'ai reçu de nombreux mails concernant des problèmes de reconnaissance
 des disques des PVR SAGEM sous DVBT2MPG. Le disque dur de mon PC a
