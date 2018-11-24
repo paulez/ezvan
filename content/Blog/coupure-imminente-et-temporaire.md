@@ -16,5 +16,4 @@ La procédure pour pouvoir accéder au site à l'aide de cette adresse est
 décrite à [cette
 adresse](http://www.pcentraide.com/index.php?showtopic=6093) .
 
-Articles: 
 

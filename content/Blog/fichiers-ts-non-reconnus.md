@@ -15,5 +15,4 @@ Mes logiciels ne sont pas capables de décrypter ces fichiers et je n'ai
 pas l'intention d'essayer de contourner cette protection. Sachez qu'il
 existe des enregistreurs qui ne cryptent pas. A vous des les trouvez!
 
-Articles: 
 

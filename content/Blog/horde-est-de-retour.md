@@ -9,5 +9,4 @@ J'ai enfin réinstallé Horde !
 Pour rappel, Horde en plus d'être un webmail, permet de gérer un
 calendrier, des contacts et des tâches, qui peut être bien pratique.
 
-Articles: 
 

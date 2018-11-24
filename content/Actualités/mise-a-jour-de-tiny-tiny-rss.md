@@ -9,5 +9,4 @@ permet de suivre les mises à jour de nombreux sites web au même endroit.
 Il est [disponible sur ezvan.fr](https://www.ezvan.fr/rss) et vient
 d'être mis à jour à la dernière version.
 
-Articles: 
 

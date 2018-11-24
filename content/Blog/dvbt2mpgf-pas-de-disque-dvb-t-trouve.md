@@ -31,5 +31,4 @@ changer les propriétés du fichier DVBT2MPG.EXE (ou DVBT2MPGF.EXE) afin
 qu’il s’exécute en tant qu’ « Administrateur » (ça s’applique aussi à
 Windows 7).
 
-Articles: 
 

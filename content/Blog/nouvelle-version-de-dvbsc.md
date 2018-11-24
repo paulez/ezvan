@@ -12,5 +12,4 @@ Il ne m'est pas possible de tester le bon fonctionnement du rendu de la
 vidéo sur toutes les cartes graphiques du marché. Désolé si la votre
 n'est pas supportée.
 
-Articles: 
 

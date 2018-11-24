@@ -18,5 +18,4 @@ Remark concerning Vista: In order to allow access to disk sectors, you
 must change the properties of the DVBT2MPG.EXE file. It must execute as
 “Administrator” (it is the same under Windows 7).
 
-Articles: 
 

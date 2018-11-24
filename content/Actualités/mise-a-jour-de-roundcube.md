@@ -9,5 +9,4 @@ vient d'être mis à jour à la version 0.6. Le principal ajout de cette
 nouvelle version est un carnet d'adresse retravaillé et plus riche.
 N'hésitez pas à la tester !
 
-Articles: 
 

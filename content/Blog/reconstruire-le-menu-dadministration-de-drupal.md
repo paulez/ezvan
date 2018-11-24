@@ -20,5 +20,4 @@ et de nettoyer le cache.
 Pour finir je n'avais plus qu'à rajouter le bloc du menu dans la barre
 latérale pour obtenir un menu d'administration tout neuf.
 
-Articles: 
 

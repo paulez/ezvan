@@ -10,5 +10,4 @@ bande passante !
 Ne vous étonnez donc pas si certaines choses ne fonctionnent plus, par
 contre n'hésitez pas à me les signaler.
 
-Articles: 
 

@@ -12,5 +12,4 @@ l'écriture d'un billet. Les thèmes correspondants seront alors
 automatiquement créés. Il sera par exemple ensuite possible de parcourir
 tous les articles liés à ceux-ci.
 
-Articles: 
 

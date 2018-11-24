@@ -12,5 +12,4 @@ interruptions de service sont à prévoir :-)
 Je ferais un petit billet pour indiquer quand les choses sérieuses
 commenceront !
 
-Articles: 
 

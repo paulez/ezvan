@@ -18,5 +18,4 @@ taille correcte).
 
 Merci de me dire d'où cela peut venir et comment y remédier.
 
-Articles: 
 

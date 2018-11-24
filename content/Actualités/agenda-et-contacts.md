@@ -22,5 +22,4 @@ Pour l'utiliser sur mon téléphone Android, j'utilise l'application
 cal.ezvan.fr comme serveur, et utiliser mes identifiants de courriel et
 le tour est joué !
 
-Articles: 
 

@@ -9,5 +9,4 @@ Afin d'augmenter la capacité de stockage du serveur, celui-ci sera
 sites hébergés ne seront ainsi plus accessibles, ainsi que le serveur
 Jabber durant l'intervention.
 
-Articles: 
 

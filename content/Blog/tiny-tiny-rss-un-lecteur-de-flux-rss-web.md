@@ -35,5 +35,4 @@ Pour conclure, voilà une bonne alternative à des solutions privatrices,
 dont je ne citerais pas le nom. Si vous voulez essayer, [l'instance que
 j'ai installée](http://www.ezvan.fr/rss) permet de s'inscrire librement.
 
-Articles: 
 

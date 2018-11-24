@@ -11,5 +11,4 @@ utiliser ce serveur, il va falloir vous réinscrire !
 Ces données seront dorénavant stockées sur une base MySql pour plus de
 sécurité.
 
-Articles: 
 

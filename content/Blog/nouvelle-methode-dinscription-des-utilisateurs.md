@@ -32,5 +32,4 @@ seront automatiquement supprimmés.
 Pour ceux ayant déjà un compte mais qui n'a pas été validé, envoyez moi
 un mail que je le valide.
 
-Articles: 
 

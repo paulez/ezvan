@@ -25,5 +25,4 @@ password \[success=1 user\_unknown=ignore default=die\] pam\_ldap.so
 try\_authtok try\_first\_pass  
 </code>
 
-Articles: 
 

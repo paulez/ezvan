@@ -14,5 +14,4 @@ dconf-editor. Se déplacer dans l'arborescence sur la gauche vers system
 -&gt; proxy, et éditer la liste "ignore-hosts". Vous pouvez y ajouter
 les hôtes à ignorer.
 
-Articles: 
 

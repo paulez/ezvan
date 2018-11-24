@@ -14,5 +14,4 @@ une liste de diffusion !
 Pour rappel Roundcube est un webmail en AJAX qui est très agréable à
 utiliser.
 
-Articles: 
 

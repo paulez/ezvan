@@ -22,5 +22,4 @@ Pour créer un site dynamique nécessitant l'utilisation d'une base de
 données, vous pouvez contacter l'administrateur du site en utilisant [le
 formulaire de contact](https://www.ezvan.fr/contact).
 
-Articles: 
 

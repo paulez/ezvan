@@ -7,5 +7,4 @@ Slug: serveur-jabber-de-retour
 Le serveur Jabber est de retour après quelques jours d'indisponibilité
 dus à un problème de mise à jour.
 
-Articles: 
 

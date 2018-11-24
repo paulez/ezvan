@@ -14,5 +14,4 @@ smartphone et une version dynamique en AJAX.
 Tous les webmails sont listés sur [leur page
 consacrée](https://www.ezvan.fr/mail).
 
-Articles: 
 
