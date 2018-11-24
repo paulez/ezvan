@@ -58,15 +58,17 @@ configuration CPUWeight donnée, et que la slice partage cette ressource
 avec les autres slices selon leurs configurations propres.  
 
 Celle ci est pour a slice contenant les services et celle contenant les
-sessions des utilisateurs:  
-`% cat /sys/fs/cgroup/cpu/system.slice/cpu.shares`
+sessions des utilisateurs:
+
+```
+% cat /sys/fs/cgroup/cpu/system.slice/cpu.shares
 
 1024  
 
-% cat /sys/fs/cgroup/cpu/user.slice/cpu.shares  
+% cat /sys/fs/cgroup/cpu/user.slice/cpu.shares
 
 1024  
-</code>  
+```
 
 Les deux slices ont donc le même nombre de shares configuré. Le résultat
 est que si chacune demande toutes les ressources processeur disponible,
@@ -79,6 +81,7 @@ une faible priorité.
 On procède en créant la configuration de la slice dans le fichier
 `/etc/systemd/system/lowprio.slice` qui a le contenu suivant:  
 
+```
 \[Unit\]  
 
 Description=Slice with low CPU priority  
@@ -100,20 +103,21 @@ fichier `/etc/systemd/system/boinc.service` avec le contenu suivant:
 \[Service\]  
 
 Slice=lowprio.slice  
-</code>  
+```
 
 Finalement on recharge la configuration de systemd et redémarre le
 service BOINC:  
 
+```
 % sudo systemctl daemon-reload  
 
 % sudo systemctl restart boinc.service  
-</code>  
+```
 
 On peut maintenant relance la même expérience qu'auparavant, mais en
 utilisant la commande `systemd-cgtop` qui montre l'utilisation du
 processeur par groupe:  
-
+```
 Control Group Procs %CPU Memory Input/s Output/s  
 
 / 72 558.4 5.1G - -  
@@ -127,7 +131,7 @@ Control Group Procs %CPU Memory Input/s Output/s
 /init.scope 1 - - - -  
 
 /lowprio.slice/boinc.service 8 - - - -  
-</code>  
+```
 
 On remarque que boinc.service n'a pas de temps CPU comptabilisé. C'est
 parce que j'ai retiré l'attribut CPUWeight pour le service, ce qui
@@ -140,7 +144,7 @@ On relance l'expérimentation en lançant la commande
 
 Cette fois cgtop montre que toutes les ressources processeurs sont
 attribuées à la slice contenant les sessions utilisateurs user.slice:  
-
+```
 Control Group Procs %CPU Memory Input/s Output/s  
 
 / 80 800.0 5.4G - -  
@@ -154,7 +158,7 @@ Control Group Procs %CPU Memory Input/s Output/s
 /init.scope 1 - - - -  
 
 /lowprio.slice/boinc.service 8 - - - -  
-</code>  
+```  
 
 On note que system.slice est aussi utilisée car le serveur d'affichage
 Xorg est lancé dans cette slice, et je joue une vidéo en parallèle. Il

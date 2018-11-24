@@ -10,7 +10,7 @@ données.
 
 Tu peux créer un blog simple à l'aide de la plateforme
 [Drupal](https://www.drupal.org/). Tu peux consulter les [blogs
-existants](/blog).
+existants](/category/blog.html).
 
 ### Photos
 
