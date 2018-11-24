@@ -22,9 +22,17 @@ commande dpkg, j'ai lancé les commandes suivantes pour configurer mon
 compte CardDav, remplacez &lt;utilisateur&gt; et &lt;motdepasse&gt; par
 le mot idoine.
 
-`# configure target config for CardDAVsyncevolution --configure \             --template webdav \             syncURL=https://cal.ezvan.fr/<utilisateur>/contacts/ \             SSLVerifyServer=0 \             username=<utilisateur> \             password=<motdepasse> \             target-config@carddav \             addressbook`
+```
+# configure target config for CardDAVsyncevolution --configure \
+             --template webdav \
+             syncURL=https://cal.ezvan.fr/<utilisateur>/contacts/ \
+             SSLVerifyServer=0 \
+             username=<utilisateur> \
+             password=<motdepasse> \
+             target-config@carddav \
+             addressbook
 
-\# configure sync config for CardDAV  
+# configure sync config for CardDAV  
 syncevolution --configure \\  
               --template SyncEvolution\_Client \\  
               syncURL=local://@carddav \\  
@@ -33,11 +41,12 @@ syncevolution --configure \\
               carddav \\  
               addressbook
 
-\# initial slow sync for CardDAV  
+# initial slow sync for CardDAV  
 syncevolution --sync slow carddav
 
-\# incremental sync for CardDAV  
+# incremental sync for CardDAV  
 syncevolution carddav
+```
 
 Et ça marche ! Il ne me reste plus qu'à trouver comment lancer la
 commande de synchronisation à intervalle de temps régulier.
