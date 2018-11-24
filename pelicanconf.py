@@ -13,6 +13,12 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'fr'
 LOCALE = 'fr_FR.utf8'
 
+I18N_SUBSITES = {
+    'en': {
+        'SITENAME': 'Ezvan homepage',
+    }
+}
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -56,6 +62,7 @@ DISPLAY_AUTHORS_ON_SIDEBAR = True
 
 # Archives
 ARCHIVES_SAVE_AS = 'archives.html'
+DISPLAY_ARCHIVE_ON_SIDEBAR = False
 
 # Menu
 MENUITEMS = ()
