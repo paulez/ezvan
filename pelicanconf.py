@@ -38,7 +38,7 @@ SOCIAL = ()
 PLUGIN_PATHS = [
     "/home/paul/data/logiciels/pelican-plugins"
 ]
-PLUGINS = ['i18n_subsites',]
+PLUGINS = ['i18n_subsites', 'tipue_search',]
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
 }
@@ -53,6 +53,9 @@ DISPLAY_AUTHORS_ON_SIDEBAR = True
 
 # Menu
 MENUITEMS = ()
+
+# Search
+DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
 
 THEME = "/home/paul/data/logiciels/pelican-themes/pelican-bootstrap3"
 
