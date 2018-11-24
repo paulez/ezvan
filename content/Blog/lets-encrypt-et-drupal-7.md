@@ -1,7 +1,6 @@
 Title: Let's Encrypt et Drupal 7
 Date: 2018-08-19 01:29
 Author: Paul
-Tags: 
 Slug: lets-encrypt-et-drupal-7
 Tags: Libre, SSL, Web, Site
 
@@ -25,7 +24,12 @@ de configurer Apache pour utiliser le nouveau certificat.
 
 Malheureusement tout ne se passe pas comme prévu !
 
-     - The following errors were reported by the server:   Domain: www.ezvan.fr   Type:   unauthorized   Detail: Invalid response from   http://www.ezvan.fr/.well-known/acme-challenge/UWXvHv0ueIHLLooJIcIfdD2OiuNipVF5TuSc0dXnXd0:   "      403 Forbidden      Forbidden"
+     - The following errors were reported by the server:   
+     Domain: www.ezvan.fr   
+     Type:   unauthorized   
+     Detail: Invalid response from 
+       http://www.ezvan.fr/.well-known/acme-challenge/UWXvHv0ueIHLLooJIcIfdD2OiuNipVF5TuSc0dXnXd0:   
+       "      403 Forbidden      Forbidden"
 
 Que se passe-t-il ? Drupal interdit l’accès direct aux fichiers placés
 dans son arborescence pour des raisons de sécurité. L’emplacement du
@@ -39,7 +43,12 @@ pour autoriser l’accès à ce répertoire. Après avoir appliqué ce patch au
 fichier .htaccess situé à la racine du répertoire Drupal, je peux
 relancer la commande avec succès.
 
-     - Congratulations! Your certificate and chain have been saved at   /etc/letsencrypt/live/www.ezvan.fr/fullchain.pem. Your cert will   expire on 2018-11-16. To obtain a new or tweaked version of this   certificate in the future, simply run certbot again with the   "certonly" option. To non-interactively renew *all* of your   certificates, run "certbot renew"
+     - Congratulations! Your certificate and chain have been saved at
+     /etc/letsencrypt/live/www.ezvan.fr/fullchain.pem. Your cert will  
+     expire on 2018-11-16. To obtain a new or tweaked version of this   
+     certificate in the future, simply run certbot again with the   
+     "certonly" option. To non-interactively renew *all* of your   
+     certificates, run "certbot renew"
 
 Et voilà mon certificat est configuré ! Je peux maintenant vérifier que
 j’obtiens un score correct sur [le site SSL
