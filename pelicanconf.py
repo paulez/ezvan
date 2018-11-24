@@ -38,7 +38,10 @@ SOCIAL = ()
 PLUGIN_PATHS = [
     "/home/paul/data/logiciels/pelican-plugins"
 ]
-PLUGINS = ['i18n_subsites', 'tipue_search',]
+PLUGINS = [
+    'i18n_subsites', 
+    'tipue_search',
+]
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
 }
@@ -50,6 +53,9 @@ SHOW_ARTICLE_AUTHOR = True
 SHOW_DATE_MODIFIED = True
 SHOW_ARTICLE_CATEGORY = False
 DISPLAY_AUTHORS_ON_SIDEBAR = True
+
+# Archives
+ARCHIVES_SAVE_AS = 'archives.html'
 
 # Menu
 MENUITEMS = ()
