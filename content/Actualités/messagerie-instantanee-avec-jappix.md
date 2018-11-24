@@ -14,6 +14,6 @@ décentralisé.
 Pour moi son principal atout est son agréable interface, très utile en
 environnement hostile pour retrouver sa messagerie instantanée !  
 
-Vous pouvez essayer [Jappix](https://jabber.ezvan.fr/jappix) sur
+Vous pouvez essayer [Jappix](https://www.ezvan.fr/jappix) sur
 Ezvan.fr.
 
