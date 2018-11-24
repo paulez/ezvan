@@ -1,6 +1,6 @@
 Title: Nouvelle version de DVBSC
 Date: 2013-04-10 20:35
-Author: dezvan
+Author: Dominique
 Tags: DVBSC, Logiciels
 Slug: nouvelle-version-de-dvbsc
 

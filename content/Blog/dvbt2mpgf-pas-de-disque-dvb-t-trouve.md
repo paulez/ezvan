@@ -1,6 +1,6 @@
 Title: DVBT2MPGF: Pas de disque DVB-T trouvé
 Date: 2009-09-21 13:47
-Author: dezvan
+Author: Dominique
 Tags: Logiciels
 Slug: dvbt2mpgf-pas-de-disque-dvb-t-trouve
 

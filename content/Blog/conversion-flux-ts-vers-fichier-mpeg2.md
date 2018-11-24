@@ -1,6 +1,6 @@
 Title: Conversion flux TS vers fichier MPEG2
 Date: 2007-04-22 09:54
-Author: dezvan
+Author: Dominique
 Tags: Logiciels
 Slug: conversion-flux-ts-vers-fichier-mpeg2
 

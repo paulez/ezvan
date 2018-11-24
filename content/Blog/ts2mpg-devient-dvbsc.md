@@ -1,6 +1,6 @@
 Title: TS2MPG devient DVBSC
 Date: 2011-10-10 05:50
-Author: dezvan
+Author: Dominique
 Tags: Logiciels
 Slug: ts2mpg-devient-dvbsc
 
