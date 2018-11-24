@@ -3,7 +3,6 @@ Date: 2012-05-03 21:11
 Author: Paul
 Tags: 
 Slug: spam-et-jabber
-Category: Site
 Tags: Jabber, Spam, ejabberd, Libre
 
 Le spam est un problème récurrent sur les services que j'administre sur

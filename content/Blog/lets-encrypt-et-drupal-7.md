@@ -3,7 +3,6 @@ Date: 2018-08-19 01:29
 Author: Paul
 Tags: 
 Slug: lets-encrypt-et-drupal-7
-Category: Linux
 Tags: Libre, SSL, Web, Site
 
 Le vieux certificat SSL fournit par Gandi pour
