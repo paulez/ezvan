@@ -6,6 +6,8 @@ Ezvan.fr te propose de multiples services. Ce services te sont proposés
 gracieusement, sans garantie, en respectant la confidentialité de tes
 données.
 
+Retrouve les dernières informations sur ces services dans [les actualités]({tag}Services).
+
 ### Blog
 
 Tu peux créer un blog simple à l'aide de la plateforme
@@ -22,7 +24,7 @@ Nextcloud](https://nextcloud.com/install/#install-clients).
 ### Courriel
 
 Nous te proposons une adresse courriel @ezvan.fr. Pour en disposer tu
-peux nous contacter via [le formulaire de contact](/contact). Les moyens
+peux nous contacter via [le formulaire de contact]({filename}/pages/contact.md). Les moyens
 d'accéder à ton compte sont décrits dans la page [Courriel]({filename}courriel.md).
 
 ### Messagerie instantanée
@@ -43,7 +45,7 @@ page [agenda](/agenda).
 ### Hébergement de site web
 
 Il est possible de faire héberger ton site web. Pour cela nous
-[contacter](/contact).
+[contacter]({filename}/pages/contact.md).
 
 ### Lecteur de flux RSS
 

@@ -1,7 +1,7 @@
 Title: Partage de photos avec Nextcloud et bien d'autres
 Date: 2018-02-19 08:06
 Author: Paul
-Tags: 
+Tags: Services
 Slug: partage-de-photos-avec-nextcloud-et-bien-dautres
 
 [Nextcloud](https://nextcloud.com/) est un logiciel qui permet de

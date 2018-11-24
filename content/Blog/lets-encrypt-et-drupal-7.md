@@ -3,6 +3,7 @@ Date: 2018-08-19 01:29
 Author: Paul
 Slug: lets-encrypt-et-drupal-7
 Tags: Libre, SSL, Web, Site
+Lang: fr
 
 Le vieux certificat SSL fournit par Gandi pour
 [www.ezvan.fr](https://www.ezvan.fr/) a expiré sans crier gare ! Je n’ai

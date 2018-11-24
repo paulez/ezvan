@@ -1,7 +1,7 @@
 Title: Papa software
 Author: Dominique
 Lang: en
-stub: logiciels-papa
+Slug: logiciels-papa
 
 # DVBSC
 

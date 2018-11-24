@@ -1,7 +1,7 @@
 Title: Les logiciels de Papa
 Author: Dominique
 Lang: fr
-stub: logiciels-papa
+Slug: logiciels-papa
 
 Lorsque Papa ne trouve pas l'outil qui lui convient sur le net, il le
 développe lui-même. Développer un outil c'est du travail. S'il le fait

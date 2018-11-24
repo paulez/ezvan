@@ -1,6 +1,7 @@
 Title: Courriel
 Author: Paul
 Status: hidden
+Slug: courriel
 
 ### Courriel
 
