@@ -1,7 +1,6 @@
 Title: Spam et Jabber
 Date: 2012-05-03 21:11
 Author: Paul
-Tags: 
 Slug: spam-et-jabber
 Tags: Jabber, Spam, ejabberd, Libre
 
