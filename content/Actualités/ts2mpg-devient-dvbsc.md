@@ -1,7 +1,7 @@
 Title: TS2MPG devient DVBSC
 Date: 2011-10-10 05:50
 Author: Dominique
-Tags: Logiciels
+Tags: Logiciels de Papa, DVBSC, TS2MPG
 Slug: ts2mpg-devient-dvbsc
 
 Avec l'arrivée de la haute définition, le format de fichier vidéo MPG

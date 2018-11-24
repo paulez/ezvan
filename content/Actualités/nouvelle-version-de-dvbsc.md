@@ -1,7 +1,7 @@
 Title: Nouvelle version de DVBSC
 Date: 2013-04-10 20:35
 Author: Dominique
-Tags: DVBSC, Logiciels
+Tags: DVBSC, Logiciels de Papa
 Slug: nouvelle-version-de-dvbsc
 
 L'outil DVBSC permet maintenant de visualiser les images de la vidéo

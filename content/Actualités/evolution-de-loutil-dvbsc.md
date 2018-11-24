@@ -1,7 +1,7 @@
 Title: Evolution de l'outil DVBSC
 Date: 2017-05-24 12:41
 Author: Dominique
-Tags: 
+Tags: Logiciels de Papa, DVBSC
 Slug: evolution-de-loutil-dvbsc
 
 La version V2R5 de l'outil d'extraction d'un fichier vidéo à partir d'un

@@ -1,7 +1,7 @@
 Title: Nouvelle version de TS2MPG
 Date: 2011-03-26 19:59
 Author: Dominique
-Tags: 
+Tags: Logiciels de Papa, TS2MPG
 Slug: nouvelle-version-de-ts2mpg
 
 TS2MPG supporte maintenant la haute définition! Il génère des fichiers

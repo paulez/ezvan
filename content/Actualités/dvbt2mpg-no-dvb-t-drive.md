@@ -1,7 +1,7 @@
 Title: DVBT2MPG : No DVB-T drive
 Date: 2009-09-21 14:02
-Author: Dominique
-Tags: Logiciels
+Author: Dominique, DVBT2MPG
+Tags: Logiciels de Papa
 Slug: dvbt2mpgf-pas-de-disque-dvb-t-trouve
 Lang: en
 

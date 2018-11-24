@@ -1,7 +1,7 @@
 Title: Papa propose un nouvel outil
 Date: 2007-12-03 12:28
 Author: Dominique
-Tags: 
+Tags: Logiciels de Papa, DVD2ISO
 Slug: papa-propose-un-nouvel-outil
 
 Les outils standards ne savent pas extraire correctement une image ISO

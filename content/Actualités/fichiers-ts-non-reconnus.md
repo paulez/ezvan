@@ -1,7 +1,7 @@
 Title: Fichiers TS non reconnus
 Date: 2013-04-10 20:26
 Author: Dominique
-Tags: Enregistreurs TNT HD, Logiciels
+Tags: Enregistreurs TNT HD, Logiciels de Papa
 Slug: fichiers-ts-non-reconnus
 
 Je reçois énormément de mails concernant des difficultés pour convertir
