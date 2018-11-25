@@ -1,6 +1,6 @@
 Title: Nouveau site avec Pelican
 Author: Paul
-Tags: Services, Site, Pelican
+Tags: Services, Site, Pelican, Libre
 Slug: nouveau-site-pelican
 Date: 2018-11-24 22:00
 Summary: Je viens de publier une nouvelle version du site. J'en ai profité pour ré-organiser le site et utiliser un thème un peu plus moderne.
@@ -27,9 +27,11 @@ Finalement, l'aspect sécurité est aussi à prendre en compte. Heureusement j'u
 
 Il existe de nombreuses autres générateurs de sites statiques, dont pour citer certains connus, [Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), etc.
 Pourquoi l'un et pas l'autre ? 
-J'ai commencé par tester [Hugo](https://gohugo.io/), mais j'ai eu quelques difficultés à le faire fonctionner sur [Debian Stretch](https://wiki.debian.org/fr/DebianStretch), entre de version de go trop vieille et problème de dépendance.
+J'ai commencé par tester [Hugo](https://gohugo.io/), mais j'ai eu quelques difficultés à le faire fonctionner sur [Debian Stretch](https://wiki.debian.org/fr/DebianStretch), entre version de [Go](https://golang.org/) trop vieille et problème de dépendance.
 
 J'ai ensuite essayé [Pelican](http://docs.getpelican.com/) car il est disponible dans [Debian Stretch](https://wiki.debian.org/fr/DebianStretch), et écrit en [Python](https://fr.wikipedia.org/wiki/Python_(langage)) ce qui me facilite la tâche pour résoudre des potentiels problèmes. Étant rapidement parvenu à un résultat honorable, je ne suis pas aller fouiller ailleurs !
+
+La plupart des générateurs utilisent un concept similaire à base de fichiers au [format Markdown](https://fr.wikipedia.org/wiki/Markdown). Il semble donc aisé de migrer d'une solution à l'autre, le choix n'en est que plus simple.
 
 ## Ce qui change
 
@@ -37,7 +39,7 @@ Pages statiques obligent, le fonctionnement du site est quelque peu différent.
 
 ### Commentaires
 
-Il n'y a plus de commentaires. Fini, disparus. Ceux-ci étaient utilisées en écrasante majorité par des spammeurs de tous poils, la perte devrait être minime. 
+Il n'y a plus de commentaires. Finis, disparus. Ceux-ci étaient utilisées en écrasante majorité par des spammeurs de tous poils, la perte devrait être minime. 
 Il existe des solutions comme utiliser [Disqus](https://disqus.com/), mais je suis modérément enthousiaste à l'idée d'ajouter un traceur publicitaire à ce site.
 
 Vous pouvez toujours m'envoyer un message via [la page de contact](({filename}/pages/contact.md)) pour commenter un article !
@@ -46,15 +48,15 @@ Vous pouvez toujours m'envoyer un message via [la page de contact](({filename}/p
 
 Il n'est également plus possible d'écrire un article directement depuis le site.
 
-Pour publier un article envoyez le moi via[la page de contact](({filename}/pages/contact.md)) ou créez une "pull request" sur [le projet Github](https://github.com/paulez/ezvan).
+Pour publier un article envoyez le moi via [la page de contact]({filename}/pages/contact.md) ou créez une "pull request" sur [le projet Github](https://github.com/paulez/ezvan).
 
-Les articles sont formatés à l'aide de Markdown. [Le fichier source de l'article précédent](https://raw.githubusercontent.com/paulez/ezvan/master/content/Blog/lets-encrypt-et-drupal-7.md) peut servir d'exemple.
+Les articles sont formatés à l'aide de [Markdown](https://fr.wikipedia.org/wiki/Markdown). [Le fichier source de l'article précédent](https://raw.githubusercontent.com/paulez/ezvan/master/content/Blog/lets-encrypt-et-drupal-7.md) peut servir d'exemple.
 
 ## Comment ça marche
 
-J'utilise la version de Pelican fournie avec Debian, que j'ai installée l'aide la commande `apt install pelican`
+J'utilise la version de Pelican fournie avec Debian, que j'ai installé à l'aide de la commande `apt install pelican`.
 
-Après avoir créé un projet en utilisant `pelican-quickstart`, j'ai importé les articles existant sur le site en lançant `pelican-import --feed  https://www.ezvan.fr/rss.xml -o output/ -m markdown`.
+Après avoir créé un projet en utilisant `pelican-quickstart`, j'ai importé les articles existant sur du site en lançant `pelican-import --feed  https://www.ezvan.fr/rss.xml -o output/ -m markdown`.
 
 Certaines choses sont manquantes comme les étiquettes des articles, et le résultat comporte du code HTML superflu. Pour nettoyer un peu tout ça j'ai écrit [un script de conversion](https://github.com/paulez/ezvan/blob/master/convert.py).
 
