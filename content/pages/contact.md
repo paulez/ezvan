@@ -1,6 +1,5 @@
 Title: Contact
 Slug: contact
-Status: hidden
 
 <form id="contactform" action="//formspree.io/paul+wwwezvan@ezvan.fr" method="POST">
 <div class="col-sm-7 slideanim">
