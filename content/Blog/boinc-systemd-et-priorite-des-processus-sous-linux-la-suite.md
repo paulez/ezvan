@@ -4,7 +4,7 @@ Author: Paul
 Tags: BOINC, Linux, Libre, systemd
 Slug: boinc-systemd-et-priorite-des-processus-sous-linux-la-suite
 
-Dans mon [précédent billet](https://www.ezvan.fr/node/106) j'avais pensé
+Dans mon [précédent billet]({filename}boinc-systemd-et-priorite-des-processus-sous-linux.md) j'avais pensé
 avoir réglé mon problème, le démon BOINC laissant toutes les ressources
 processeur libres en cas de besoin.  
 

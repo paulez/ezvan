@@ -42,7 +42,7 @@ Pages statiques obligent, le fonctionnement du site est quelque peu différent.
 Il n'y a plus de commentaires. Finis, disparus. Ceux-ci étaient utilisées en écrasante majorité par des spammeurs de tous poils, la perte devrait être minime. 
 Il existe des solutions comme utiliser [Disqus](https://disqus.com/), mais je suis modérément enthousiaste à l'idée d'ajouter un traceur publicitaire à ce site.
 
-Vous pouvez toujours m'envoyer un message via [la page de contact](({filename}/pages/contact.md)) pour commenter un article !
+Vous pouvez toujours m'envoyer un message via [la page de contact]({filename}/pages/contact.md) pour commenter un article !
 
 ### Écrire un article
 
