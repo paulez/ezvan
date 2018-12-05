@@ -2,6 +2,7 @@ Title: BOINC, systemd et priorité des processus sous Linux
 Date: 2017-10-14 06:35
 Author: Paul
 Tags: Libre, Linux, systemd, BOINC
+Lang: fr
 Slug: boinc-systemd-et-priorite-des-processus-sous-linux
 
 Je me suis récemment remis à faire tourner
@@ -20,7 +21,7 @@ moins le processus est prioritaire.
 Cette valeur 19 correspond à une priorité idle, ce qui signifie qu'elle
 ne permet d'utiliser que le temps restant qui n'est réclamé par aucun
 processus plus prioritaire. Cela correspond en pratique à n'utiliser que
-les ressources laissées libres sur le machine.
+les ressources laissées libres sur la machine.
 
 Cette configuration a fonctionné pendant longtemps sous Linux. Or j'ai
 remarqué que sur mon système BOINC ne semblait pas laisser toutes les
@@ -37,7 +38,7 @@ disponible.
 
 En observant l'utilisation du processeur avec la commande top, je
 remarque que chacun des processus sha512sum n'obtient que 50% de temps
-processeur. De plus le champs ni de top indique une utilisation de 50%
+processeur. De plus le champ "ni" de top indique une utilisation de 50%
 pour les processus à priorité minimale. Normalement elle devrait être de
 0 !  
 
@@ -45,7 +46,7 @@ Pourquoi n'est-ce pas le cas ?
 
 En fait la gestion des priorités de processus sous Linux a été pas mal
 compliquée par l'apparition des
-[cgroups](https://fr.wikipedia.org/wiki/Cgroups=), ou control groups.
+[cgroups](https://fr.wikipedia.org/wiki/Cgroups), ou control groups.
 Ces groupes permettent de grouper des ressources du noyau et d'appliquer
 des contrôles à ces groupes. Il est ainsi possible de limiter les
 ressources utilisées par un groupe de processus.
@@ -64,7 +65,7 @@ En équilibrant les priorités des groupes on évite ce problème.
 
 Mais dans mon cas je veux que le groupe contenant les processus BOINC
 ait une priorité minimale. Ces groupes sont configurés par le système
-d'initialisation [systemd](https://fr.wikipedia.org/wiki/Systemd=) qui
+d'initialisation [systemd](https://fr.wikipedia.org/wiki/Systemd) qui
 gère entre de multiples choses les services systèmes et démarrer les
 sessions utilisateurs, et qui les place dans des groupes séparés. Il
 suffit donc d'indiquer à systemd de donner une priorité minimale au
