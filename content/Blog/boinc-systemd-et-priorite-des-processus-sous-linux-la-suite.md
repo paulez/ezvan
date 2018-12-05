@@ -3,6 +3,7 @@ Date: 2017-10-25 07:39
 Author: Paul
 Tags: BOINC, Linux, Libre, systemd
 Slug: boinc-systemd-et-priorite-des-processus-sous-linux-la-suite
+Lang: fr
 
 Dans mon [précédent billet]({filename}boinc-systemd-et-priorite-des-processus-sous-linux.md) j'avais pensé
 avoir réglé mon problème, le démon BOINC laissant toutes les ressources
@@ -48,7 +49,7 @@ utilisés par des services et ceux utilisés par les sessions utilisateurs
 dans des slices différentes, user.slice et system.slice, qui font partie
 de la slice racine .slice. Ceci peut-être observé avec la commande
 `systemd-cgls`qui représente un arbre des processus, services et slices.
-Ces slices sont ensuites reflétées dans l'organisation des cgroups créés
+Ces slices sont ensuite reflétées dans l'organisation des cgroups créés
 par systemd.  
 
 Le service BOINC est donc lancé dans la slice system.slice, comme la
@@ -57,8 +58,8 @@ processeur avec les autres service dans cette slice selon la
 configuration CPUWeight donnée, et que la slice partage cette ressource
 avec les autres slices selon leurs configurations propres.  
 
-Celle ci est pour a slice contenant les services et celle contenant les
-sessions des utilisateurs:
+La configuration pour la slice contenant les services et celle contenant les
+sessions des utilisateurs est celle-ci:
 
 ```
 % cat /sys/fs/cgroup/cpu/system.slice/cpu.shares
@@ -82,7 +83,7 @@ On procède en créant la configuration de la slice dans le fichier
 `/etc/systemd/system/lowprio.slice` qui a le contenu suivant:  
 
 ```
-\[Unit\]  
+[Unit]  
 
 Description=Slice with low CPU priority  
 
@@ -90,17 +91,18 @@ DefaultDependencies=no
 
 Before=slices.target  
 
-\[Slice\]  
+[Slice]  
 
 CPUWeight=1  
-</code>  
+```
 
 Ensuite on surcharge la configuration du service BOINC en créant un
 fichier `/etc/systemd/system/boinc.service` avec le contenu suivant:  
 
+```
 .include /usr/lib/systemd/system/boinc.service  
 
-\[Service\]  
+[Service]  
 
 Slice=lowprio.slice  
 ```
