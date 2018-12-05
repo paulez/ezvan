@@ -1,7 +1,7 @@
 Title: DVBT2MPGF: Pas de disque DVB-T trouvé
 Date: 2009-09-21 13:47
 Author: Dominique
-Tags: Logiciels de Papa
+Tags: Logiciels de Papa, DVBT2MPG
 Slug: dvbt2mpgf-pas-de-disque-dvb-t-trouve
 Lang: fr
 
