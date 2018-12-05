@@ -3,6 +3,7 @@ Date: 2011-06-12 11:10
 Author: Paul
 Tags: RSS, Debian, Hébergement, Libre, Logiciels
 Slug: tiny-tiny-rss-un-lecteur-de-flux-rss-web
+Lang: fr
 
 Pour lire mes flux RSS, j'utilise actuellement Liferea. Malheureusement,
 il me manque une solution de synchronisation entre ses différentes

@@ -3,6 +3,7 @@ Date: 2012-04-30 21:07
 Author: Paul
 Tags: Édition, Web, Etherpad
 Slug: edition-collaborative-avec-etherpad-lite
+Lang: fr
 
 [Etherpad-lite](https://github.com/Pita/etherpad-lite) est un éditeur
 collaboratif accessible par un navigateur.

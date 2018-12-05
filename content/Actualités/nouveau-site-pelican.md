@@ -2,6 +2,7 @@ Title: Nouveau site avec Pelican
 Author: Paul
 Tags: Services, Site, Pelican, Libre
 Slug: nouveau-site-pelican
+Lang: fr
 Date: 2018-11-24 22:00
 Summary: Je viens de publier une nouvelle version du site. J'en ai profité pour ré-organiser le site et utiliser un thème un peu plus moderne.
 

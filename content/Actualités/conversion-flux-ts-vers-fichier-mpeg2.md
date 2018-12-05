@@ -3,6 +3,7 @@ Date: 2007-04-22 09:54
 Author: Dominique
 Tags: Logiciels de Papa, DVBT2MPG
 Slug: conversion-flux-ts-vers-fichier-mpeg2
+Lang: fr
 
 La mise au point de l'outil DVBT2MPG pour l'extraction des
 enregistrements audio/vidéo du PVR SAGEM m'a fait découvrir le problème

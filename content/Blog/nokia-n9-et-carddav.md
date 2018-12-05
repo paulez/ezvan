@@ -3,6 +3,7 @@ Date: 2012-07-21 14:55
 Author: Paul
 Tags: Logiciel, N9, CardDav, Libre
 Slug: nokia-n9-et-carddav
+Lang: fr
 
 Je viens d'acquérir le Nokia N9, le dernier smartphone sorti par Nokia
 avant le pacte avec Microsoft. Il utilise le système Meego Harmattan.

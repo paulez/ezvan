@@ -3,6 +3,7 @@ Date: 2011-10-10 05:50
 Author: Dominique
 Tags: Logiciels de Papa, DVBSC, TS2MPG
 Slug: ts2mpg-devient-dvbsc
+Lang: fr
 
 Avec l'arrivée de la haute définition, le format de fichier vidéo MPG
 n'est plus adapté. J'ai du faire évoluer mon outil d'extraction de

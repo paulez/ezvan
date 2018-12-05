@@ -3,6 +3,7 @@ Date: 2010-03-11 12:18
 Author: Paul
 Tags: Jeux-vidéo, Civilization
 Slug: civilization-v
+Lang: fr
 
 Gamespot vient de publier [un
 article](http://gdc.gamespot.com/story/6253246/civilization-v-impressions-first-look?tag=latest-highlights;title;3)

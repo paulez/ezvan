@@ -3,6 +3,7 @@ Date: 2017-12-20 16:09
 Author: Paul
 Tags: Services
 Slug: agenda-et-contacts
+Lang: fr
 
 J'ai configuré une solution de gestion de calendrier et contacts sur
 Ezvan.fr afin de ne pas avoir à exposer ces informations à Google. J'ai

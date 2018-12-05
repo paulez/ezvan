@@ -3,6 +3,7 @@ Date: 2011-03-26 19:59
 Author: Dominique
 Tags: Logiciels de Papa, TS2MPG
 Slug: nouvelle-version-de-ts2mpg
+Lang: fr
 
 TS2MPG supporte maintenant la haute définition! Il génère des fichiers
 au format .M2TS. Et bonne nouvelle pour les amateurs de Home Cinéma, il

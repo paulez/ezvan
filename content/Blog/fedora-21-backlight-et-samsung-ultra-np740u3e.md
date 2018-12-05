@@ -3,6 +3,7 @@ Date: 2014-12-20 01:22
 Author: Paul
 Tags: Libre
 Slug: fedora-21-backlight-et-samsung-ultra-np740u3e
+Lang: fr
 
 Pour faire fonctionner le réglage du rétro-éclairage (backlight) du
 Samsung Series 7 Ultra NP740U3E sous Fedora 21, voici l'astuce.

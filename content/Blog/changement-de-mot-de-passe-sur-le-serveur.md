@@ -3,6 +3,7 @@ Date: 2011-06-11 21:53
 Author: Paul
 Tags: Debian, LDAP, PAM, Services
 Slug: changement-de-mot-de-passe-sur-le-serveur
+Lang: fr
 
 Depuis la migration et l'utilisation d'un serveur LDAP pour gérer les
 comptes des utilisateurs, il n'était plus possible de changer de mot de

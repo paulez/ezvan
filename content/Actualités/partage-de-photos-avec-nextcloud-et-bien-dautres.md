@@ -3,6 +3,7 @@ Date: 2018-02-19 08:06
 Author: Paul
 Tags: Services
 Slug: partage-de-photos-avec-nextcloud-et-bien-dautres
+Lang: fr
 
 [Nextcloud](https://nextcloud.com/) est un logiciel qui permet de
 partager des photos et des fichiers, mais aussi de gérer un calendrier

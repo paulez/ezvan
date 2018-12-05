@@ -3,6 +3,7 @@ Date: 2008-07-23 14:12
 Author: Paul
 Tags: Services
 Slug: nouveau-logiciel-de-webmail
+Lang: fr
 
 Un nouveau logiciel pour consulter ses courriels est dorénavant
 disponible. Celui-ci est [Horde](http://www.horde.org/) qui permet non

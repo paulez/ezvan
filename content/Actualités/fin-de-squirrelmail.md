@@ -2,8 +2,8 @@ Title: Fin de Squirrelmail
 Date: 2017-10-02 15:13
 Author: Paul
 Tags: Services
-Lang: fr
 Slug: fin-de-squirrelmail
+Lang: fr
 
 Le logiciel de webmail [Squirrelmail](https://squirrelmail.org/) n'étant
 plus maintenu, il ne bénificie plus de mises à jour de sécurité et donc

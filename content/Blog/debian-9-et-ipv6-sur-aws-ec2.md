@@ -3,6 +3,7 @@ Date: 2018-01-09 00:32
 Author: Paul
 Tags: Libre, Debian, EC2, IPv6, Linux
 Slug: debian-9-et-ipv6-sur-aws-ec2
+Lang: fr
 
 Ce week-end j'ai configuré [IPv6](https://fr.wikipedia.org/wiki/IPv6)
 sur mon infrastructure [EC2](https://aws.amazon.com/ec2/) qui tourne

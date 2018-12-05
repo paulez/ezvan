@@ -2,8 +2,8 @@ Title: BOINC, systemd and Linux process priority
 Date: 2018-12-05 00:00
 Author: Paul
 Tags: Libre, Linux, systemd, BOINC
-Lang: en
 Slug: boinc-systemd-et-priorite-des-processus-sous-linux
+Lang: en
 
 I've recently started to run [BOINC](https://boinc.berkeley.edu/) in my computer again. It is a nice way to donate computing capacity to research projects.
 

@@ -3,6 +3,7 @@ Date: 2011-06-29 20:22
 Author: Paul
 Tags: Jabber, Jappix
 Slug: messagerie-instantanee-avec-jappix
+Lang: fr
 
 Jappix est un client de messagerie XMPP qui dispose d'une interface très
 agréable. Vous pouvez l'utiliser pour vous connecter à notre serveur

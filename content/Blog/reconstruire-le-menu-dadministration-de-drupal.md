@@ -3,6 +3,7 @@ Date: 2015-06-01 15:32
 Author: Paul
 Tags: Drupal, Logiciels
 Slug: reconstruire-le-menu-dadministration-de-drupal
+Lang: fr
 
 J'avais des soucis avec mes pages d'administration de Drupal, certaines
 m'affichaient l'erreur "Vous n'avez accès à aucune page

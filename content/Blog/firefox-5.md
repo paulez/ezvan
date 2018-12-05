@@ -3,6 +3,7 @@ Date: 2011-06-19 09:36
 Author: Paul
 Tags: Archlinux, Firefox
 Slug: firefox-5
+Lang: fr
 
 En mettant à jour mon ArchLinux ce matin, que vois-je ? Firefox 5 est
 déjà sorti ! La page officielle du projet n'en fait pas encore état,

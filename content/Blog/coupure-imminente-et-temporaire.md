@@ -3,6 +3,7 @@ Date: 2007-08-06 13:56
 Author: Paul
 Tags: Site, Services
 Slug: coupure-imminente-et-temporaire
+Lang: fr
 
 Le dégroupage de la ligne à laquelle est connecté le serveur du site est
 imminent, ce qui risque de provoquer une perte de connexion temporaire.

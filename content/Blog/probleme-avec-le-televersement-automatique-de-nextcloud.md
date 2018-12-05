@@ -3,6 +3,7 @@ Date: 2018-03-05 12:14
 Author: Paul
 Tags: Libre, Nextcloud
 Slug: probleme-avec-le-televersement-automatique-de-nextcloud
+Lang: fr
 
 Depuis quelques jours la fonctionnalité de téléversement automatique de
 Nextcloud qui me permet d’envoyer automatiquement mes photos depuis mon

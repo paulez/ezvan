@@ -3,6 +3,7 @@ Date: 2011-12-09 09:36
 Author: Paul
 Tags: Gnome, Libre, Gnome, Linux
 Slug: gnome-3-hotes-a-ignorer-pour-le-proxy
+Lang: fr
 
 Une des caractéristiques de Gnome, en particulier de la version de 3,
 sont ses interfaces de configurations épurées. Pour la configuration du

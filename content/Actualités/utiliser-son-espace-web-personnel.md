@@ -3,6 +3,7 @@ Date: 2008-12-22 22:37
 Author: Paul
 Tags: Services
 Slug: utiliser-son-espace-web-personnel
+Lang: fr
 
 Chaque utilisateur ayant un compte mail sur ezvan.fr peut également
 disposer d'un espace web afin de distribuer quelques fichiers ou

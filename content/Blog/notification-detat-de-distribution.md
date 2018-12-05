@@ -3,6 +3,7 @@ Date: 2011-06-17 15:14
 Author: Paul
 Tags: Mail, Roundcube
 Slug: notification-detat-de-distribution
+Lang: fr
 
 Je viens de découvrir une fonctionnalité super pratique dans Roundcube :
 on peut demander à être notifié de l'état de distribution d'un mail.  

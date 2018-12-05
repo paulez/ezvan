@@ -3,6 +3,7 @@ Date: 2007-01-03 19:05
 Author: Paul
 Tags: 
 Slug: webmail-en-panne
+Lang: fr
 
 Squirrelmail est en panne actuellement, vous pouvez utiliser
 [Rouncube](https://www.ezvan.fr/roundcubemail/) en attendant que je le

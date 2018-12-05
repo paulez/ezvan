@@ -3,6 +3,7 @@ Date: 2010-03-28 14:26
 Author: Paul
 Tags: Services
 Slug: greylisting
+Lang: fr
 
 Je viens d'ajouter une fonction de
 [greylisting](http://fr.wikipedia.org/wiki/Greylisting) sur le serveur

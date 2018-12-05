@@ -3,6 +3,7 @@ Date: 2010-09-03 16:22
 Author: Paul
 Tags: Site
 Slug: migration
+Lang: fr
 
 Le site web vient d'être migré vers une nouvelle machine. Ce changement
 a du être opéré à cause de plantages intempestifs sur la machine

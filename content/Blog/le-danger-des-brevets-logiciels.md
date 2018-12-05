@@ -3,6 +3,7 @@ Date: 2012-05-03 18:36
 Author: Paul
 Tags: Brevets, Logiciel
 Slug: le-danger-des-brevets-logiciels
+Lang: fr
 
 L'excellent site [Framablog](http://www.framablog.org) a publié [une
 retranscription traduite en français d'une conférence de Richard

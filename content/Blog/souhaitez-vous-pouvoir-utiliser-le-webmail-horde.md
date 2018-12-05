@@ -3,6 +3,7 @@ Date: 2010-11-16 12:56
 Author: Paul
 Tags: 
 Slug: souhaitez-vous-pouvoir-utiliser-le-webmail-horde
+Lang: fr
 
 <form accept-charset="UTF-8" action="https://www.ezvan.fr/rss.xml" id="poll-view-voting" method="post">
 

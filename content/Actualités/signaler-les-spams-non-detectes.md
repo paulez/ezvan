@@ -3,6 +3,7 @@ Date: 2012-02-27 11:07
 Author: Paul
 Tags: Pourriel, Services
 Slug: signaler-les-spams-non-detectes
+Lang: fr
 
 Je viens d'ajouter une fonctionnalité d'apprentissage des Pourriels
 (spams) non détectés par l'antispam.  

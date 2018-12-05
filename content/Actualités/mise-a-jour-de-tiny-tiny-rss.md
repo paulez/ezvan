@@ -3,6 +3,7 @@ Date: 2016-12-05 00:16
 Author: Paul
 Tags: RSS, Web, Services
 Slug: mise-a-jour-de-tiny-tiny-rss
+Lang: fr
 
 [Tiny Tiny RSS](http://tt-rss.org/) est un aggrégateur de flux, qui
 permet de suivre les mises à jour de nombreux sites web au même endroit.

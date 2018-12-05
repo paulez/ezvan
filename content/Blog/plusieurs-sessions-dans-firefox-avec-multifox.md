@@ -3,6 +3,7 @@ Date: 2012-05-03 18:30
 Author: Paul
 Tags: Firefox, Web, Libre
 Slug: plusieurs-sessions-dans-firefox-avec-multifox
+Lang: fr
 
 Quand on développe ou administre un site, on aimerait souvent savoir
 rapidement ce que notre modification donne pour les utilisateurs. Or

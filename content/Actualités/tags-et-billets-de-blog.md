@@ -3,6 +3,7 @@ Date: 2012-02-25 16:19
 Author: Paul
 Tags: Site
 Slug: tags-et-billets-de-blog
+Lang: fr
 
 Je viens de rajouter la possibilité de taguer dynamiquement les billets
 de blogs que vous écrivez.  

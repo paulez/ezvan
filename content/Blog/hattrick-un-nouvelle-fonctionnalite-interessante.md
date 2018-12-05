@@ -3,6 +3,7 @@ Date: 2012-02-25 16:12
 Author: Paul
 Tags: Hattrick
 Slug: hattrick-un-nouvelle-fonctionnalite-interessante
+Lang: fr
 
 [Hattrick devrait bientôt proposer une nouvelle
 fonctionnalité](http://hattrickunited.org/dev-blog/2012/02/22/that-feature-ive-told-you-about/)

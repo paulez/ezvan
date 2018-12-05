@@ -3,6 +3,7 @@ Date: 2009-07-03 00:48
 Author: Paul
 Tags: Site
 Slug: ezvanfr-de-retour-encore-plus-fort
+Lang: fr
 
 La canicule vient de faire une de ses premières victimes, en effet le
 serveur qui hébergeait Ezvan.fr a rendu l'âme. Heureusement une solution

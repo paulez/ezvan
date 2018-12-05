@@ -3,6 +3,7 @@ Date: 2011-02-20 16:27
 Author: Paul
 Tags: Debian, Hébergement, CardDav, Libre, CalDav
 Slug: synchronisation-de-calendriers-et-de-contacts
+Lang: fr
 
 Vendredi dernier, j'ai complétement oublié une réunion. Honte à moi ! Ce
 petit imprévu m'a fait réaliser qu'il me fallait absoluement une

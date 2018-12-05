@@ -3,6 +3,7 @@ Date: 2012-04-16 19:53
 Author: Paul
 Tags: Hébergement, IPv6
 Slug: ipv6-et-48-chez-onlinenet
+Lang: fr
 
 Enfin ! Online.net, qui fournit le serveur hébergeant ce site, vient de
 mettre à disposition un /48 en IPv6 pour ses serveurs dédiés.  

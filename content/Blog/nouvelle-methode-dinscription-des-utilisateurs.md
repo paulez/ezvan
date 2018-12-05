@@ -3,6 +3,7 @@ Date: 2011-02-20 15:37
 Author: Paul
 Tags: Site
 Slug: nouvelle-methode-dinscription-des-utilisateurs
+Lang: fr
 
 Un problème pour la gestion des inscriptions au site est qu'il y a de
 très nombreuses inscriptions bidons réalisées par des robots.  

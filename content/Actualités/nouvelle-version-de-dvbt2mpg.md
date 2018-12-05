@@ -3,6 +3,7 @@ Date: 2007-01-07 16:45
 Author: Dominique
 Tags: Logiciels de Papa, DVBT2MPG
 Slug: nouvelle-version-de-dvbt2mpg
+Lang: fr
 
 Pour prendre en compte les différentes remarques et améliorier son
 fonctionnement, j'ai mis en ligne la version V1R2.2 de l'outil

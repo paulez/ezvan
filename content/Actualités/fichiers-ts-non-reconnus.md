@@ -3,6 +3,7 @@ Date: 2013-04-10 20:26
 Author: Dominique
 Tags: Enregistreurs TNT HD, Logiciels de Papa
 Slug: fichiers-ts-non-reconnus
+Lang: fr
 
 Je reçois énormément de mails concernant des difficultés pour convertir
 les fichiers TS provenant d'enregistreur TNT. Sachez que lors du

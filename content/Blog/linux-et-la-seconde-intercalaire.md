@@ -3,6 +3,7 @@ Date: 2012-07-03 08:49
 Author: Paul
 Tags: Linux, Libre
 Slug: linux-et-la-seconde-intercalaire
+Lang: fr
 
 Si vous avez observé des dysfonctionnements sur vos serveurs Linux le
 premier juillet, cela vient probablement d'un bogue du noyau Linux, qui

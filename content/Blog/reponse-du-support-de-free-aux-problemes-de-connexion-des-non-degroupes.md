@@ -3,6 +3,7 @@ Date: 2006-09-28 14:24
 Author: Paul
 Tags: 
 Slug: reponse-du-support-de-free-aux-problemes-de-connexion-des-non-degroupes
+Lang: fr
 
 Comme vous ne le savez peut-être pas, ce site est hébergé sur un serveur
 connecté au net via une connexion Free non dégroupée, les problèmes

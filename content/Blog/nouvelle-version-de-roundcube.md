@@ -3,6 +3,7 @@ Date: 2010-04-26 17:20
 Author: Paul
 Tags: Services
 Slug: nouvelle-version-de-roundcube
+Lang: fr
 
 Je viens de mettre à jour la version de
 [Roundcube](https://www.ezvan.fr/roundcube/) vers la version 0.4. La

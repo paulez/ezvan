@@ -3,6 +3,7 @@ Date: 2011-06-18 16:06
 Author: Paul
 Tags: Voyage, Nagios
 Slug: petit-voyage-en-italie
+Lang: fr
 
 Dans le cadre de mon travail, je fis un petit voyage en Italie pour
 aller à la conférence mondiale sur Nagios. J'ai même écrit [un petit
