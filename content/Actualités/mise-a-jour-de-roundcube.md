@@ -1,7 +1,7 @@
 Title: Mise à jour de Roundcube
 Date: 2011-10-31 22:28
 Author: Paul
-Tags: Site, Services
+Tags: Site, Services, Roundcube
 Slug: mise-a-jour-de-roundcube
 Lang: fr
 

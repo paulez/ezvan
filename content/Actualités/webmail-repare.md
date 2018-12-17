@@ -1,7 +1,7 @@
 Title: Webmail réparé !
 Date: 2007-01-03 19:40
 Author: Paul
-Tags: 
+Tags: Squirrelmail, Roundcube
 Slug: webmail-repare
 Lang: fr
 

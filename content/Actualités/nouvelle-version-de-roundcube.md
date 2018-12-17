@@ -1,7 +1,7 @@
 Title: Nouvelle version de Roundcube
 Date: 2010-04-26 17:20
 Author: Paul
-Tags: Services
+Tags: Services, Roundcube
 Slug: nouvelle-version-de-roundcube
 Lang: fr
 
