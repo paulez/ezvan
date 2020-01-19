@@ -9,7 +9,7 @@ Comme tu le sais déjà, Ezvan.fr te permet de synchroniser ton calendrier et te
 
 ### DAVx⁵
 
-Je recommande d'utiliser le logiciel [DAVx⁵](https://www.davx5.com/), parce qu'il est libre et fonctionne bien. Télécharge le sur le [Play store](https://play.google.com/store/apps/details?id=at.bitfire.davdroid) ou [F-Droid](https://f-droid.org/en/packages/at.bitfire.davdroid/).
+Je recommande d'utiliser le logiciel [DAVx⁵](https://www.davx5.com/), parce qu'il est libre et fonctionne bien. Télécharge-le sur le [Play store](https://play.google.com/store/apps/details?id=at.bitfire.davdroid) ou [F-Droid](https://f-droid.org/en/packages/at.bitfire.davdroid/).
 
 ### Configuration
 
