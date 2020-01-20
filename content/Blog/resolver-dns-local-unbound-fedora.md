@@ -1,4 +1,4 @@
-Title: Configurer un resolveur DNS local avec unbound sous Fedora
+Title: Configurer un résolveur DNS local avec Unbound sous Fedora
 Date: 2020-01-18 00:00
 Author: Paul
 Slug: dns-local-unbound-fedora
@@ -7,18 +7,21 @@ Tags: DNS, Libre, Fedora
 
 ## Résoudre le DNS
 
-DNS est le protocole qui permet d'associer un nom de domaine comme www.ezvan.fr à une addresse Internet. On utilise un résolveur DNS pour effectuer association, ce qui est nécessaire pour pouvoir naviguer sur le web. Quand vous êtes connectés à votre box Internet, un résolveur DNS est automatique configuré par votre ordinateur.
-Généralement il est fourni par votre fournisseur d'accès, qui peut donc contrôler les réponses qu'il fournit. Cela peut-être un moyen de censurer certains sites web, comme expliqué par cet [article de Stéphane Bortzmeyer](https://www.bortzmeyer.org/son-propre-resolveur-dns.html).
-Aussi il peut arriver que votre connexion soit quelque peu mauvaise, rendant les aller-retours vers le résolveur de votre fournisseur relativement longs, ce qui ralenti de manière non négligeable le chargement des pages webs.
+[DNS](https://fr.wikipedia.org/wiki/Domain_Name_System) est le protocole Internet qui permet d'associer un nom de domaine comme *www.ezvan.fr* à une adresse Internet. On utilise un résolveur DNS pour effectuer cette association, ce qui est nécessaire pour pouvoir naviguer sur le [Web](https://fr.wikipedia.org/wiki/World_Wide_Web). Quand vous êtes connectés à votre box Internet, un résolveur DNS est automatiquement configuré par votre système.
+
+Généralement il est fourni par votre fournisseur d'accès, qui peut donc contrôler les réponses qu'il fournit. Cela peut être un moyen de censurer certains sites Web, comme expliqué par cet [article de Stéphane Bortzmeyer](https://www.bortzmeyer.org/son-propre-resolveur-dns.html).
+
+Aussi il peut arriver que votre connexion soit quelque peu mauvaise, rendant les allers-retours vers le résolveur de votre fournisseur relativement longs, ce qui ralenti de manière non négligeable le chargement des pages Web.
 
 ## Installer un résolveur local
 
-Ces deux problèmes sont une bonne raison d'utiliser son propre résolveur DNS. Il est possible d'en utiliser un sur sa machine, ce que nous allons décrire ici. La procédure est ici décrite pour Fedora, mais est similaire pour d'autres distributions Linux.
+Ces deux problèmes sont une bonne raison d'utiliser son propre résolveur DNS. Il est possible d'en utiliser un sur sa machine, ce que nous allons décrire ici. La procédure est ici décrite pour [Fedora](https://getfedora.org/), mais est similaire pour d'autres [distributions Linux](https://fr.wikipedia.org/wiki/Distribution_Linux#Distribution_grand_public).
 
-## unbound
+### Unbound
 
 [Unbound](https://nlnetlabs.nl/projects/unbound/about/) est un résolveur DNS moderne et léger. On va utiliser ce logiciel comme résolveur local.
-dnssec-trigger est un démon qui permet d'intégrer unbound avec NetworkManager.
+
+*Dnssec-trigger* est un démon qui permet d'intégrer *Unbound* avec *NetworkManager*, ainsi que de configurer correctement *Unbound* dans certains cas particuliers comme les portails captifs.
 
 Nous allons installer les deux, les activer et les démarrer.
 
@@ -32,37 +35,53 @@ sudo systemctl start unbound dnssec-triggerd
 
 La plupart des distributions modernes utilisent NetworkManager pour réaliser la configuration du réseau. C'est ce démon qui va créer le fichier `/etc/resolv.conf` qui est utilisé par le système pour configurer les résolveurs DNS.
 
-Voici par exemple un exemple de configuration obtenue sans utiliser de résolveur local :
+Voici par exemple un exemple de configuration obtenue sans utiliser de résolveur local.
 
 ```
-paul@debian-1:~$ cat /etc/resolv.conf
+$ cat /etc/resolv.conf
 domain hsd1.wa.comcast.net
 search hsd1.wa.comcast.net
 nameserver 192.168.1.1
 ```
 
-On note ici que le résolveur DNS "192.168.1.1" est une addresse locale. C'est mon routeur Wi-Fi qui fait aussi résolveur. Je ne maîtrise pas son comportement, donc utiliser mon propre résolveur est utile.
+On note ici que le résolveur DNS `192.168.1.1` est une adresse locale. C'est mon routeur Wi-Fi qui fait aussi résolveur. Je ne maîtrise pas son comportement, donc utiliser mon propre résolveur est utile.
 
-NetworkManager modifie ce fichier à chaque fois que la connexion change, par example quand vous vous connectez à un réseau Wi-Fi. dnssec-trigger fournit un script "hook" qui est exécuté par NetworkManager à chaque fois que le statut la connexion change, et va éditer ce fichier /etc/resolv.conf. Ce script est installé au chemin `/etc/NetworkManager/dispatcher.d/01-dnssec-trigger`.
+On peut confirmer à l'aide de la commande *nslookup* le résolveur utilisé.
 
-On peut redémarrer NetworkManager pour l'utiliser :
+```
+$ nslookup www.ezvan.fr
+Server:         192.168.1.1
+Address:        192.168.1.1#53
+
+Non-authoritative answer:
+Name:   www.ezvan.fr
+Address: 54.229.148.173
+Name:   www.ezvan.fr
+Address: 2a05:d018:653:9f03:a461:bc7e:2eed:f352
+```
+
+On voit ici que `Server` est `192.168.1.1` comme attendu.
+
+*NetworkManager* modifie ce fichier à chaque fois que la connexion change, par exemple quand vous vous connectez à un réseau Wi-Fi. *Dnssec-trigger* fournit un script "hook" qui est exécuté par *NetworkManager* à chaque fois que le statut la connexion change, et va éditer ce fichier `/etc/resolv.conf`. Ce script est installé au chemin `/etc/NetworkManager/dispatcher.d/01-dnssec-trigger`.
+
+On peut redémarrer *NetworkManager* pour l'utiliser.
 
 ```
 sudo systemctl restart NetworkManager
 ```
 
-On peut vérifier le résultat :
+On peut ensuite vérifier le résultat.
 
 ```
-[paul@gen3 ~]$ cat /etc/resolv.conf
+$ cat /etc/resolv.conf
 # Generated by dnssec-trigger-script
 nameserver 127.0.0.1
 ```
 
-On peut maintenant vérifier que le résolveur local fonctionne correctement :
+Finalement vérifions que le résolveur local fonctionne correctement.
 
 ```
-[paul@gen3 ~]$ nslookup www.ezvan.fr
+$ nslookup www.ezvan.fr
 Server:         127.0.0.1
 Address:        127.0.0.1#53
 
@@ -73,4 +92,4 @@ Name:   www.ezvan.fr
 Address: 2a05:d018:653:9f03:a461:bc7e:2eed:f352
 ```
 
-Notons le champ "server" qui indique `127.0.0.1`, on a donc bien un résolveur local fonctionnel !
+Notons le champ `Server` qui indique `127.0.0.1`, on a donc bien un résolveur local fonctionnel !
