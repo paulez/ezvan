@@ -5,7 +5,7 @@ Slug: dns-local-unbound-fedora
 Lang: fr
 Tags: DNS, Libre, Fedora
 
-## Résoudre le DNS
+### Résoudre le DNS
 
 [DNS](https://fr.wikipedia.org/wiki/Domain_Name_System) est le protocole Internet qui permet d'associer un nom de domaine comme *www.ezvan.fr* à une adresse Internet. On utilise un résolveur DNS pour effectuer cette association, ce qui est nécessaire pour pouvoir naviguer sur le [Web](https://fr.wikipedia.org/wiki/World_Wide_Web). Quand vous êtes connectés à votre box Internet, un résolveur DNS est automatiquement configuré par votre système.
 
@@ -13,13 +13,15 @@ Généralement il est fourni par votre fournisseur d'accès, qui peut donc contr
 
 Aussi il peut arriver que votre connexion soit quelque peu mauvaise, rendant les allers-retours vers le résolveur de votre fournisseur relativement longs, ce qui ralenti de manière non négligeable le chargement des pages Web.
 
-## Installer un résolveur local
+### Installer un résolveur local
 
 Ces deux problèmes sont une bonne raison d'utiliser son propre résolveur DNS. Il est possible d'en utiliser un sur sa machine, ce que nous allons décrire ici. La procédure est ici décrite pour [Fedora](https://getfedora.org/), mais est similaire pour d'autres [distributions Linux](https://fr.wikipedia.org/wiki/Distribution_Linux#Distribution_grand_public).
 
-### Unbound
+#### Unbound
 
 [Unbound](https://nlnetlabs.nl/projects/unbound/about/) est un résolveur DNS moderne et léger. On va utiliser ce logiciel comme résolveur local.
+
+#### Dnssec-trigger
 
 *Dnssec-trigger* est un démon qui permet d'intégrer *Unbound* avec *NetworkManager*, ainsi que de configurer correctement *Unbound* dans certains cas particuliers comme les portails captifs.
 
@@ -31,7 +33,7 @@ sudo systemctl enable unbound dnssec-triggerd
 sudo systemctl start unbound dnssec-triggerd
 ```
 
-## Configuration réseau
+### Configuration réseau
 
 La plupart des distributions modernes utilisent NetworkManager pour réaliser la configuration du réseau. C'est ce démon qui va créer le fichier `/etc/resolv.conf` qui est utilisé par le système pour configurer les résolveurs DNS.
 
@@ -69,6 +71,8 @@ On peut redémarrer *NetworkManager* pour l'utiliser.
 ```
 sudo systemctl restart NetworkManager
 ```
+
+### Est-ce que ça marche ?
 
 On peut ensuite vérifier le résultat.
 
