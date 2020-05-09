@@ -42,7 +42,7 @@ SOCIAL = ()
 
 # Plugins
 PLUGIN_PATHS = [
-    "/home/paul/data/logiciels/pelican-plugins"
+    "../../../pelican-plugins"
 ]
 PLUGINS = [
     'i18n_subsites',
@@ -70,7 +70,7 @@ MENUITEMS = ()
 # Search
 DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
 
-THEME = "/home/paul/data/logiciels/pelican-themes/pelican-bootstrap3"
+THEME = "../../../pelican-themes/pelican-bootstrap3"
 
 DEFAULT_PAGINATION = 10
 
