@@ -66,8 +66,9 @@ PLUGIN_PATHS = [
     "../../../pelican-plugins"
 ]
 PLUGINS = [
-    'i18n_subsites',
-    'tipue_search',
+    "i18n_subsites",
+    "tipue_search",
+    "neighbors",
 ]
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
@@ -89,7 +90,7 @@ DISPLAY_ARCHIVE_ON_SIDEBAR = False
 MENUITEMS = ()
 
 # Search
-DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
+DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'authors', 'archives', 'search')
 
 THEME = "../../../pelican-themes/elegant"
 
