@@ -7,9 +7,9 @@ Les nouveaux ordinateurs Apple basés sur le processeur M1 commencent à être t
 
 ## Une révolution ?
 
-Est-ce l'avènement d'une nouvelle ère où nos smartphones et ordinateurs personnels utiliseront tous la même technologie ARM, que les smartphones utilisent depuis leurs débuts ?
+Est-ce l'avènement d'une nouvelle ère où nos smartphones et ordinateurs personnels utiliseront tous la même technologie [ARM](futur-arm.html), que les smartphones utilisent depuis leurs débuts ?
 
-Les smartphones ont envahi notre monde. Ils sont partouts, et nécessaires pour de plus en plus d'opérations : validation d'opérations bancaires, paiements, tickets de transports, services de transports urbain, etc.
+Les smartphones ont envahi notre monde. Ils sont partout, et nécessaires pour de plus en plus d'opérations : validation d'opérations bancaires, paiements, tickets de transports, services de transports urbain, etc.
 
 C'est une révolution encore plus forte que celle de l'ordinateur personnel, qui a généralisé l'accès à l'informatique et à Internet.
 
@@ -17,11 +17,11 @@ C'est une révolution encore plus forte que celle de l'ordinateur personnel, qui
 
 Il y a pourtant une différence majeure avec les ordinateurs personnels.
 
-Au début de ceux-ci, de nombreux fabricants étaient en compétitions, comme Amiga, Apple et Atari, avec des architectures et systèmes différents. Il n'y avait que peu d'interopérabilité entre les différents ordinateurs disponibles. Puis a emergé la plateforme PC, qui devint rapidement un standard de facto.
+Au début de ceux-ci, de nombreux fabricants étaient en compétition, comme Amiga, Apple et Atari, avec des architectures et systèmes différents. Il n'y avait que peu d'interopérabilité entre les différents ordinateurs disponibles. Puis a emergé la plateforme PC, qui devint rapidement un standard de facto.
 
 La grosse force de cette plateforme est son ouverture. Un système fonctionnant sur PC peut fonctionner sur tous les ordinateurs compatibles PC. La majorité des ordinateurs sont compatibles PC à l'exception notable des machines Apple.
 
-Cela a permis le succès de Windows puis Linux. D'autres systèmes compatibles PC pourtant moins répandu peuvent ainsi fonctionner sur de nombreux ordinateurs, comme les différents Unix et BSD.
+Cela a permis le succès de Windows puis Linux. D'autres systèmes compatibles PC pourtant moins répandus peuvent ainsi fonctionner sur de nombreux ordinateurs, comme les différents Unix et BSD.
 
 ## Un monde fermé 
 
@@ -33,9 +33,9 @@ De même il existe des initiatives telles que [postmarketOS](https://postmarketo
 
 ## Pour un futur verrouillé ?
 
-Apple avec ses Macbook s'est engagé dans la même voie, fournissant matériel et logiciel dans une plateforme liée. Installer un autre système sur un Macbook récent est possible, mais requiert pas mal d'efforts.
+Apple avec ses Macbook s'est engagé dans la même voie, fournissant matériel et logiciel dans une plateforme liée. Installer un autre système sur un Macbook récent est possible, mais requiert beaucoup d'efforts.
 
-Ses Iphones sont complètements verrouillés. Impossible d'y installer un autre système. Impossible d'y installer des applications non autorisées par Apple. Apple va-t-il profiter du passage à ARM ses sur Macbook pour y imposer les mêmes contraintes ?
+Ses Iphones sont complètements verrouillés. Impossible d'y installer un autre système. Impossible d'y installer des applications non autorisées par Apple. Apple va-t-il profiter du passage à ARM sur ses Macbook pour y imposer les mêmes contraintes ?
 
 S'il le fait, échangerons-nous de meilleures performances contre la liberté de choisir ses logiciels ? Le modèle du smartphone fermé finira-t-il par vaincre celui du PC ouvert ?
 
