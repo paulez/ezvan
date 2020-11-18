@@ -9,7 +9,7 @@ Les nouveaux ordinateurs Apple basés sur le processeur M1 commencent à être t
 
 Est-ce l'avènement d'une nouvelle ère où nos smartphones et ordinateurs personnels utiliseront tous la même technologie [ARM](futur-arm.html), que les smartphones utilisent depuis leurs débuts ?
 
-Les smartphones ont envahi notre monde. Ils sont partout, et nécessaires pour de plus en plus d'opérations : validation d'opérations bancaires, paiements, tickets de transports, services de transports urbain, etc.
+Les smartphones ont envahi notre monde. Ils sont partout, et nécessaires pour de plus en plus d'opérations : validation d'opérations bancaires, paiements, tickets de transport, services de transport urbain, etc.
 
 C'est une révolution encore plus forte que celle de l'ordinateur personnel, qui a généralisé l'accès à l'informatique et à Internet.
 
